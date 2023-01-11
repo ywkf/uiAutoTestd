@@ -1,0 +1,3 @@
+[32mINFO    [0m root:base.py:21 正在初始化 driver: <selenium.webdriver.remote.webdriver.WebDriver (session="236b11ad-bede-45ee-bb54-c5595bc4a781")>
+[32mINFO    [0m root:base.py:43 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]') 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]')

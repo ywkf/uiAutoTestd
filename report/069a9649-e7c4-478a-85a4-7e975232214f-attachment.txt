@@ -1,0 +1,30 @@
+[32mINFO    [0m root:base.py:21 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="30b5b46c-bfe3-4c2e-b350-6ab20d321356")>
+[32mINFO    [0m root:base.py:43 正在对：('xpath', "//*[@index='0' and @class='android.widget.LinearLayout']") 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('xpath', "//*[@index='0' and @class='android.widget.LinearLayout']")
+[32mINFO    [0m root:base.py:43 正在对：('id', 'as0') 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'as0')
+[32mINFO    [0m root:base.py:43 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
+[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'ajy')
+[32mINFO    [0m root:base.py:55 正在对：('id', 'ajy') 元素执行清空操作！
+[32mINFO    [0m root:base.py:57 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
+[32mINFO    [0m root:base.py:43 正在对：('id', 'ajy') 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'ajy')
+[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'aka')
+[32mINFO    [0m root:base.py:55 正在对：('id', 'aka') 元素执行清空操作！
+[32mINFO    [0m root:base.py:57 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
+[32mINFO    [0m root:base.py:43 正在对：('id', 'bil') 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'bil')
+[32mINFO    [0m root:base.py:43 正在对：('id', 'y1') 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'y1')
+[32mINFO    [0m root:base.py:33 正在查找元素：('xpath', "//*[@instance='41' and @resource-id='com.netease.newsreader.activity:id/j6']")
+[31m[1mERROR   [0m root:test02_app_article.py:35 Message: 
+
+[31m[1mERROR   [0m root:base.py:182 断言出错，正在执行截图操作！
+[31m[1mERROR   [0m root:base.py:185 断言出错，正在将错误截图写入allure报告！
+[32mINFO    [0m root:base.py:43 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout') 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout')
+[32mINFO    [0m root:base.py:43 正在对：('id', 'btx') 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'btx')
+[32mINFO    [0m root:base.py:43 正在对：('id', 'au3') 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'au3')

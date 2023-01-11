@@ -1,0 +1,15 @@
+[32mINFO    [0m root:base.py:21 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="f07b1f52-3423-4b45-b33a-77f203a6aeb0")>
+[32mINFO    [0m root:base.py:43 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
+[32mINFO    [0m root:base.py:43 正在对：('id', 'as0') 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'as0')
+[32mINFO    [0m root:base.py:43 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
+[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'ajy')
+[32mINFO    [0m root:base.py:55 正在对：('id', 'ajy') 元素执行清空操作！
+[32mINFO    [0m root:base.py:57 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
+[32mINFO    [0m root:base.py:43 正在对：Mdhdhbbz 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：Mdhdhbbz
+[1m[31mERROR   [0m root:test02_app_article.py:31 WebDriver.find_element() takes from 1 to 3 positional arguments but 9 were given
+[1m[31mERROR   [0m root:base.py:182 断言出错，正在执行截图操作！
+[1m[31mERROR   [0m root:base.py:185 断言出错，正在将错误截图写入allure报告！

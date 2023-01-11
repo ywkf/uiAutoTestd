@@ -1,0 +1,17 @@
+[32mINFO    [0m root:base.py:21 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="c7173298-0ef5-4320-aa59-cbc64b19d8c1")>
+[32mINFO    [0m root:base.py:43 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
+[32mINFO    [0m root:base.py:43 正在对：('id', 'as0') 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'as0')
+[32mINFO    [0m root:base.py:43 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
+[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'ajy')
+[32mINFO    [0m root:base.py:55 正在对：('id', 'ajy') 元素执行清空操作！
+[32mINFO    [0m root:base.py:57 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'aka')
+[32mINFO    [0m root:base.py:55 正在对：('id', 'aka') 元素执行清空操作！
+[32mINFO    [0m root:base.py:57 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
+[32mINFO    [0m root:base.py:43 正在对：('id', 'bil') 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'bil')
+[32mINFO    [0m root:base.py:43 正在对：('id', 'y1') 元素执行点击操作！
+[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'y1')
