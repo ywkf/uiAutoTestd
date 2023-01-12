@@ -1,584 +1,354 @@
-2023-01-11 09:31:32,124 INFO [base.py(__init__:21)] - 正在初始化 driver: <selenium.webdriver.remote.webdriver.WebDriver (session="280fc781-e0f3-4793-9f4c-dd0453b5f040")>
-2023-01-11 09:31:37,127 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]') 元素执行点击操作！
-2023-01-11 09:31:37,127 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]')
-2023-01-11 09:31:42,357 INFO [base.py(base_click:43)] - 正在对：('xpath', "//android.widget.LinearLayout[@content-desc='未登录标签 5之5']") 元素执行点击操作！
-2023-01-11 09:31:42,357 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//android.widget.LinearLayout[@content-desc='未登录标签 5之5']")
-2023-01-11 09:34:28,493 INFO [base.py(__init__:21)] - 正在初始化 driver: <selenium.webdriver.remote.webdriver.WebDriver (session="6d8f6e46-e476-4242-8838-9909f0d31728")>
-2023-01-11 09:34:33,495 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]') 元素执行点击操作！
-2023-01-11 09:34:33,496 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]')
-2023-01-11 09:34:39,271 INFO [base.py(base_click:43)] - 正在对：('xpath', "//android.widget.LinearLayout[@content-desc='未登录标签 4之4']") 元素执行点击操作！
-2023-01-11 09:34:39,272 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//android.widget.LinearLayout[@content-desc='未登录标签 4之4']")
-2023-01-11 09:36:32,752 INFO [base.py(__init__:21)] - 正在初始化 driver: <selenium.webdriver.remote.webdriver.WebDriver (session="f2a38c83-7f30-44bf-a04f-214d1f83be58")>
-2023-01-11 09:36:37,754 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]') 元素执行点击操作！
-2023-01-11 09:36:37,754 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]')
-2023-01-11 09:36:42,998 INFO [base.py(base_click:43)] - 正在对：('xpath', "\t//android.widget.LinearLayout[@content-desc='未登录标签 4之4']/android.widget.FrameLayout/android.widget.ImageView[1]") 元素执行点击操作！
-2023-01-11 09:36:42,998 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "\t//android.widget.LinearLayout[@content-desc='未登录标签 4之4']/android.widget.FrameLayout/android.widget.ImageView[1]")
-2023-01-11 09:43:28,719 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="c709bc32-897a-4161-b4e6-92496232d1b7")>
-2023-01-11 09:43:33,721 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]') 元素执行点击操作！
-2023-01-11 09:43:33,721 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]')
-2023-01-11 09:43:39,266 INFO [base.py(base_click:43)] - 正在对：('xpath', "\t//android.widget.LinearLayout[@content-desc='未登录标签 4之4']/android.widget.FrameLayout/android.widget.ImageView[1]") 元素执行点击操作！
-2023-01-11 09:43:39,266 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "\t//android.widget.LinearLayout[@content-desc='未登录标签 4之4']/android.widget.FrameLayout/android.widget.ImageView[1]")
-2023-01-11 09:45:25,720 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="b842d0e1-4b8c-4a82-8caa-6d5e48e944d5")>
-2023-01-11 09:45:30,722 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]') 元素执行点击操作！
-2023-01-11 09:45:30,722 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]')
-2023-01-11 09:45:36,333 INFO [base.py(base_click:43)] - 正在对：('xpath', "\t//android.widget.LinearLayout[@content-desc='未登录标签 4之4']/android.widget.FrameLayout/android.widget.ImageView[1]") 元素执行点击操作！
-2023-01-11 09:45:36,333 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "\t//android.widget.LinearLayout[@content-desc='未登录标签 4之4']/android.widget.FrameLayout/android.widget.ImageView[1]")
-2023-01-11 09:51:49,299 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="31ad1e7e-4f06-4385-9d1c-a671647462ec")>
-2023-01-11 09:51:54,301 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]') 元素执行点击操作！
-2023-01-11 09:51:54,301 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]')
-2023-01-11 09:51:59,488 INFO [base.py(base_click:43)] - 正在对：('id', '未登录标签 4之4') 元素执行点击操作！
-2023-01-11 09:51:59,488 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', '未登录标签 4之4')
-2023-01-11 09:56:46,171 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="6f3034b7-531c-467f-a47d-0ee4bb5268fd")>
-2023-01-11 09:56:51,173 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]') 元素执行点击操作！
-2023-01-11 09:56:51,173 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]')
-2023-01-11 11:10:23,141 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="869ff23e-4ded-47c3-a942-763b785a2aa5")>
-2023-01-11 11:10:28,196 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]') 元素执行点击操作！
-2023-01-11 11:10:28,196 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]')
-2023-01-11 11:10:34,006 INFO [base.py(base_click:43)] - 正在对：('xpath', '//android.widget.LinearLayout[@content-desc="未登录标签 4之4"]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 11:10:34,006 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '//android.widget.LinearLayout[@content-desc="未登录标签 4之4"]/android.widget.TextView')
-2023-01-11 11:13:10,160 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="9df1ff0d-bcb0-4c39-a588-1c58859b88d7")>
-2023-01-11 11:13:15,162 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]') 元素执行点击操作！
-2023-01-11 11:13:15,162 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]')
-2023-01-11 11:13:20,590 INFO [base.py(base_click:43)] - 正在对：('xpath', "//android.widget.RelativeLayout[@content-desc='抗疫栏目，按钮']/android.widget.TextView") 元素执行点击操作！
-2023-01-11 11:13:20,591 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//android.widget.RelativeLayout[@content-desc='抗疫栏目，按钮']/android.widget.TextView")
-2023-01-11 11:15:18,062 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="e8a7aebb-11f3-45e1-ba50-26f4e996191f")>
-2023-01-11 11:15:23,065 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]') 元素执行点击操作！
-2023-01-11 11:15:23,065 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]')
-2023-01-11 11:15:23,085 ERROR [test02_app_article.py(test01_find_channel:30)] - ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-2023-01-11 11:15:23,086 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
-2023-01-11 11:15:24,630 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
-2023-01-11 11:16:30,693 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="d479cc2d-8f3a-4219-b0cd-bd3fadf884da")>
-2023-01-11 11:16:35,697 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]') 元素执行点击操作！
-2023-01-11 11:16:35,697 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]')
-2023-01-11 11:16:41,183 INFO [base.py(base_click:43)] - 正在对：('xpath', "//android.widget.RelativeLayout[@content-desc='抗疫栏目，按钮']/android.widget.TextView") 元素执行点击操作！
-2023-01-11 11:16:41,183 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//android.widget.RelativeLayout[@content-desc='抗疫栏目，按钮']/android.widget.TextView")
-2023-01-11 11:18:41,185 ERROR [test02_app_article.py(test01_find_channel:30)] - ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-2023-01-11 11:18:41,186 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
-2023-01-11 11:21:22,148 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
-2023-01-11 11:27:07,131 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="5a810a08-660d-4167-910d-a030abbf74fc")>
-2023-01-11 11:27:12,133 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]') 元素执行点击操作！
-2023-01-11 11:27:12,133 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]')
-2023-01-11 11:27:20,558 INFO [base.py(base_click:43)] - 正在对：('xpath', "//android.widget.RelativeLayout[@content-desc='体育栏目，按钮']/android.widget.TextView") 元素执行点击操作！
-2023-01-11 11:27:20,558 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//android.widget.RelativeLayout[@content-desc='体育栏目，按钮']/android.widget.TextView")
-2023-01-11 11:35:04,190 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="556b3af4-f6a9-4cf7-95fa-ff045f90a51c")>
-2023-01-11 11:35:09,193 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]') 元素执行点击操作！
-2023-01-11 11:35:09,193 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]')
-2023-01-11 11:35:35,775 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="d0b8ef66-b826-4bed-9e22-b50c134a582c")>
-2023-01-11 11:35:40,777 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 11:35:40,777 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 11:35:43,345 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 11:35:43,345 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 14:49:34,244 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="250d54d2-3d1d-4e68-a0a4-e8f843c388e8")>
-2023-01-11 14:49:39,248 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 14:49:39,248 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 14:49:41,764 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 14:49:41,764 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 14:49:44,278 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 14:49:54,140 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 14:49:56,907 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 14:53:06,430 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="88c4b02a-6b2c-438b-8cae-8697a23724fa")>
-2023-01-11 14:53:11,433 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 14:53:11,433 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 14:53:13,886 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 14:53:13,886 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 14:53:15,396 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 14:53:15,396 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 14:53:17,703 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 14:53:17,719 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 14:53:21,721 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 14:53:26,701 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 14:53:27,300 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 14:53:31,252 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
-2023-01-11 14:53:48,574 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 14:53:48,574 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 14:53:49,795 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 14:53:49,795 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 14:54:18,359 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="c7173298-0ef5-4320-aa59-cbc64b19d8c1")>
-2023-01-11 14:54:23,362 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 14:54:23,362 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 14:54:25,828 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 14:54:25,828 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 14:54:27,280 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 14:54:27,280 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 14:54:29,512 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 14:54:29,547 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 14:54:33,455 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 14:54:39,209 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 14:54:39,224 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 14:54:43,134 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
-2023-01-11 14:54:59,974 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 14:54:59,974 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 14:55:01,112 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 14:55:01,112 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 16:08:58,549 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="da7648af-cf57-41f3-8df9-bef52b1e2b74")>
-2023-01-11 16:09:03,551 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:09:03,551 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:09:06,024 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:09:06,024 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:09:07,529 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 16:09:07,529 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 16:09:09,915 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:09:09,931 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 16:09:13,913 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 16:09:21,263 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:09:21,282 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 16:09:25,178 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
-2023-01-11 16:09:42,144 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 16:09:42,144 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 16:09:43,299 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 16:09:43,299 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 16:10:59,242 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="f07b1f52-3423-4b45-b33a-77f203a6aeb0")>
-2023-01-11 16:11:04,245 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:11:04,245 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:11:06,837 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:11:06,837 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:11:08,311 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 16:11:08,311 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 16:11:10,684 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:11:10,734 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 16:11:14,796 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 16:11:21,205 INFO [base.py(base_click:43)] - 正在对：Mdhdhbbz 元素执行点击操作！
-2023-01-11 16:11:21,205 INFO [base.py(base_find_element:33)] - 正在查找元素：Mdhdhbbz
-2023-01-11 16:11:21,205 ERROR [test02_app_article.py(test01_find_channel:31)] - WebDriver.find_element() takes from 1 to 3 positional arguments but 9 were given
-2023-01-11 16:11:21,206 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
-2023-01-11 16:11:22,076 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
-2023-01-11 16:12:22,512 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="72c01009-99c8-44b4-97b1-48a8c58d0962")>
-2023-01-11 16:12:27,537 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:12:27,537 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:12:29,877 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:12:29,877 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:12:31,328 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 16:12:31,328 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 16:12:33,561 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:12:33,588 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 16:12:37,518 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 16:12:43,621 INFO [base.py(base_click:43)] - 正在对：('id', 'aka') 元素执行点击操作！
-2023-01-11 16:12:43,621 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:12:43,802 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:12:44,395 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 16:12:48,323 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
-2023-01-11 16:12:54,308 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 16:12:54,308 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 16:12:55,461 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 16:12:55,461 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 16:13:40,005 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="1c8ef5d0-c85f-4491-b741-f0b24ff0c10e")>
-2023-01-11 16:13:45,009 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:13:45,009 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:13:47,467 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:13:47,467 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:13:48,945 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 16:13:48,945 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 16:13:49,204 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:13:50,220 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 16:13:54,250 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 16:13:59,035 INFO [base.py(base_click:43)] - 正在对：('id', 'aka') 元素执行点击操作！
-2023-01-11 16:13:59,036 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:14:02,820 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:14:02,836 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 16:14:06,788 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
-2023-01-11 16:14:23,222 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 16:14:23,223 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 16:14:24,961 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 16:14:24,961 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 16:17:09,853 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="a1fd0e7c-d54b-42d2-9735-9d245dd11091")>
-2023-01-11 16:17:14,855 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:17:14,855 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:17:17,344 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:17:17,344 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:17:18,876 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 16:17:18,876 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 16:17:21,249 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText')
-2023-01-11 16:17:21,349 INFO [base.py(base_input:55)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText') 元素执行清空操作！
-2023-01-11 16:17:25,362 INFO [base.py(base_input:57)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 16:17:31,608 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout[2]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText') 元素执行点击操作！
-2023-01-11 16:17:31,608 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout[2]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText')
-2023-01-11 16:17:34,807 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout[2]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText')
-2023-01-11 16:17:34,841 INFO [base.py(base_input:55)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout[2]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText') 元素执行清空操作！
-2023-01-11 16:17:38,735 INFO [base.py(base_input:57)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout[2]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText') 元素执行输入：Mdhdhbbz 操作！
-2023-01-11 16:17:55,118 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 16:17:55,118 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 16:17:56,864 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 16:17:56,864 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 16:19:52,326 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="361bc7da-6a9e-4dea-b527-60a999fe9026")>
-2023-01-11 16:19:57,328 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:19:57,328 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:19:59,778 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:19:59,778 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:20:01,264 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 16:20:01,264 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 16:20:03,607 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
-2023-01-11 16:20:03,607 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:20:06,766 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:20:06,786 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 16:20:10,723 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 16:20:16,749 INFO [base.py(base_click:43)] - 正在对：('id', 'aka') 元素执行点击操作！
-2023-01-11 16:20:16,749 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:20:19,896 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:20:19,913 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 16:20:23,825 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbzz 操作！
-2023-01-11 16:20:39,130 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 16:20:39,131 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 16:20:40,864 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 16:20:40,864 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 16:22:15,271 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="85cf5b0e-f300-4cda-a393-da86e3120d3c")>
-2023-01-11 16:22:20,275 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:22:20,275 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:22:22,753 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:22:22,753 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:22:24,219 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 16:22:24,219 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 16:22:24,497 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:22:25,471 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 16:22:29,421 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 16:22:35,264 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:22:35,284 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 16:22:39,194 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbzz 操作！
-2023-01-11 16:22:55,555 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 16:22:55,556 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 16:22:57,245 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 16:22:57,245 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 16:23:51,435 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="a09f7c27-f2c9-4d0a-ae35-2b96d9615d7a")>
-2023-01-11 16:23:56,438 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:23:56,438 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:23:58,855 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:23:58,855 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:24:00,445 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 16:24:00,445 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 16:24:00,679 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:24:01,653 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 16:24:05,602 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 16:24:10,472 INFO [base.py(base_click:43)] - 正在对：('id', 'aka') 元素执行点击操作！
-2023-01-11 16:24:10,472 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:24:15,215 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:24:15,226 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 16:24:19,119 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbzz 操作！
-2023-01-11 16:24:35,144 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 16:24:35,144 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 16:24:36,866 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 16:24:36,866 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 16:25:01,377 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="572c0d1e-b189-4459-8bbc-279372ec5c9a")>
-2023-01-11 16:25:01,379 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:25:01,380 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:25:04,779 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:25:04,780 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:25:33,427 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="5e8da408-91ba-4946-890a-1a62d4474d56")>
-2023-01-11 16:25:33,429 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:25:33,429 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:25:35,579 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:25:35,580 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:26:05,426 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="25380531-8ced-4ca5-9d56-685771b4bc86")>
-2023-01-11 16:26:07,429 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:26:07,429 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:26:08,603 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:26:08,603 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:26:54,115 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="42580cc1-e384-4fdd-b05d-fa2083e9c2e5")>
-2023-01-11 16:26:57,118 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:26:57,118 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:26:57,564 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:26:57,564 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:26:58,977 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 16:26:58,977 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 16:26:59,681 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:27:00,683 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 16:27:04,741 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 16:27:10,694 INFO [base.py(base_click:43)] - 正在对：('id', 'aka') 元素执行点击操作！
-2023-01-11 16:27:10,694 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:27:13,841 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:27:13,852 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 16:27:17,782 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbzz 操作！
-2023-01-11 16:27:33,735 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 16:27:33,736 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 16:27:35,493 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 16:27:35,493 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 16:29:08,849 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="819d0d3a-fca4-40ad-a99b-63d0c853d988")>
-2023-01-11 16:29:11,852 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:29:11,852 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:29:12,289 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:29:12,289 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:29:13,744 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 16:29:13,745 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 16:29:14,438 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:29:15,458 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 16:29:20,262 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 16:29:25,682 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:29:26,310 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 16:29:31,000 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 16:29:37,547 INFO [base.py(base_click:43)] - 正在对：('id', 'aka') 元素执行点击操作！
-2023-01-11 16:29:37,547 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:29:40,741 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:29:40,753 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 16:29:43,643 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbzz 操作！
-2023-01-11 16:30:21,843 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="f95dc899-5c0a-44d5-b857-269a9456a04f")>
-2023-01-11 16:30:24,846 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:30:24,846 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:30:25,531 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:30:25,531 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:30:26,961 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 16:30:26,961 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 16:30:27,632 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:30:28,666 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 16:30:32,710 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 16:30:38,182 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
-2023-01-11 16:30:38,183 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:30:42,617 INFO [base.py(base_click:43)] - 正在对：('id', 'aka') 元素执行点击操作！
-2023-01-11 16:30:42,617 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:30:42,786 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:30:43,385 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 16:30:47,273 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbzz 操作！
-2023-01-11 16:30:51,938 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 16:30:51,939 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 16:30:53,662 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 16:30:53,662 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 16:31:13,208 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="6a92a0d9-6942-4552-b035-f8e77f9450c6")>
-2023-01-11 16:31:16,210 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:31:16,210 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:31:16,928 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:31:16,929 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:31:18,345 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 16:31:18,346 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 16:31:19,024 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:31:20,037 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 16:31:24,091 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 16:31:28,987 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
-2023-01-11 16:31:28,988 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:31:33,749 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:31:33,782 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 16:31:34,758 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbzz 操作！
-2023-01-11 16:31:40,164 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 16:31:40,164 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 16:31:41,896 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 16:31:41,896 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 16:44:10,836 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="656a1229-7583-4c8c-a376-26731c895e21")>
-2023-01-11 16:44:13,839 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:44:13,839 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:44:14,419 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:44:14,420 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:44:15,795 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 16:44:15,795 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 16:44:16,487 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:44:17,488 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 16:44:21,583 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 16:44:26,654 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
-2023-01-11 16:44:26,654 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:44:31,354 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:44:31,383 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 16:44:32,271 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
-2023-01-11 16:44:37,115 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 16:44:37,115 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 16:44:38,943 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 16:44:38,943 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 16:44:39,138 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]/android.widget.TextView')
-2023-01-11 16:44:40,627 INFO [base.py(base_get_text:81)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]/android.widget.TextView') 元素获取文本操作！，获取的文本值：我的
-2023-01-11 16:44:40,628 ERROR [test02_app_article.py(test01_find_channel:30)] - assert '我的' == None
- +  where None = <bound method PageAppArticle.profile_menu_get_state of <page.page_app_article.PageAppArticle object at 0x0000015AFA08D5D0>>()
- +    where <bound method PageAppArticle.profile_menu_get_state of <page.page_app_article.PageAppArticle object at 0x0000015AFA08D5D0>> = <page.page_app_article.PageAppArticle object at 0x0000015AFA08D5D0>.profile_menu_get_state
- +      where <page.page_app_article.PageAppArticle object at 0x0000015AFA08D5D0> = <scripts.test02_app_article.TestAppArticle object at 0x0000015AFA08C8B0>.app_article
-2023-01-11 16:44:40,628 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
-2023-01-11 16:44:41,932 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
-2023-01-11 16:46:30,365 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="4f212ca2-298f-4ef2-9bf3-2d8f1f476b82")>
-2023-01-11 16:46:33,367 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:46:33,367 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:46:33,802 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:46:33,802 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:46:35,161 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 16:46:35,162 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 16:46:35,866 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:46:36,924 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 16:46:40,985 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 16:46:45,977 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
-2023-01-11 16:46:45,978 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:46:50,749 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:46:50,789 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 16:46:51,717 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
-2023-01-11 16:46:56,529 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 16:46:56,530 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 16:46:58,245 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 16:46:58,245 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 16:46:59,421 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]/android.widget.TextView')
-2023-01-11 16:46:59,811 INFO [base.py(base_get_text:81)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]/android.widget.TextView') 元素获取文本操作！，获取的文本值：我的
-2023-01-11 16:46:59,812 ERROR [test02_app_article.py(test01_find_channel:30)] - assert '我的' == None
- +  where None = <bound method PageAppArticle.profile_menu_get_state of <page.page_app_article.PageAppArticle object at 0x00000228F4799570>>()
- +    where <bound method PageAppArticle.profile_menu_get_state of <page.page_app_article.PageAppArticle object at 0x00000228F4799570>> = <page.page_app_article.PageAppArticle object at 0x00000228F4799570>.profile_menu_get_state
- +      where <page.page_app_article.PageAppArticle object at 0x00000228F4799570> = <scripts.test02_app_article.TestAppArticle object at 0x00000228F47987F0>.app_article
-2023-01-11 16:46:59,812 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
-2023-01-11 16:47:01,163 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
-2023-01-11 16:54:27,567 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="f65d32c2-ab62-4dca-8afe-76011bb0f732")>
-2023-01-11 16:54:30,570 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:54:30,570 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:54:31,083 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:54:31,083 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:54:32,494 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 16:54:32,494 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 16:54:33,177 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:54:34,202 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 16:54:38,373 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 16:54:43,293 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
-2023-01-11 16:54:43,294 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:54:48,115 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:54:48,163 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 16:54:49,049 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
-2023-01-11 16:54:54,031 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 16:54:54,032 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 16:54:55,713 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 16:54:55,713 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 16:54:59,886 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]/android.widget.TextView')
-2023-01-11 16:55:00,055 INFO [base.py(base_get_text:81)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]/android.widget.TextView') 元素获取文本操作！，获取的文本值：我的
-2023-01-11 16:55:00,056 ERROR [test02_app_article.py(test01_find_channel:34)] - assert '我的' == None
- +  where None = <bound method PageAppArticle.profile_menu_get_state of <page.page_app_article.PageAppArticle object at 0x000002264550D660>>()
- +    where <bound method PageAppArticle.profile_menu_get_state of <page.page_app_article.PageAppArticle object at 0x000002264550D660>> = <page.page_app_article.PageAppArticle object at 0x000002264550D660>.profile_menu_get_state
- +      where <page.page_app_article.PageAppArticle object at 0x000002264550D660> = <scripts.test02_app_article.TestAppArticle object at 0x000002264550C910>.app_article
-2023-01-11 16:55:00,057 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
-2023-01-11 16:55:01,020 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
-2023-01-11 16:55:01,196 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout') 元素执行点击操作！
-2023-01-11 16:55:01,196 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout')
-2023-01-11 16:55:02,652 INFO [base.py(base_click:43)] - 正在对：('id', 'btx') 元素执行点击操作！
-2023-01-11 16:55:02,652 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'btx')
-2023-01-11 16:58:26,206 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="b6b808b8-ec89-404c-bf9d-f8234ac52098")>
-2023-01-11 16:58:29,219 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 16:58:29,243 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 16:58:29,827 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 16:58:29,828 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 16:58:31,226 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 16:58:31,226 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 16:58:31,903 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:58:32,894 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 16:58:36,879 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 16:58:41,750 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
-2023-01-11 16:58:41,751 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 16:58:46,584 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 16:58:46,600 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 16:58:47,520 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
-2023-01-11 16:58:52,351 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 16:58:52,351 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 16:58:54,093 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 16:58:54,093 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 16:58:58,282 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]/android.widget.TextView')
-2023-01-11 16:58:58,411 INFO [base.py(base_get_text:81)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]/android.widget.TextView') 元素获取文本操作！，获取的文本值：我的
-2023-01-11 16:58:58,412 ERROR [test02_app_article.py(test01_find_channel:34)] - assert '我的' == None
- +  where None = <bound method PageAppArticle.profile_menu_get_state of <page.page_app_article.PageAppArticle object at 0x00000182BC3395D0>>()
- +    where <bound method PageAppArticle.profile_menu_get_state of <page.page_app_article.PageAppArticle object at 0x00000182BC3395D0>> = <page.page_app_article.PageAppArticle object at 0x00000182BC3395D0>.profile_menu_get_state
- +      where <page.page_app_article.PageAppArticle object at 0x00000182BC3395D0> = <scripts.test02_app_article.TestAppArticle object at 0x00000182BC338850>.app_article
-2023-01-11 16:58:58,412 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
-2023-01-11 16:58:59,364 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
-2023-01-11 16:58:59,543 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout') 元素执行点击操作！
-2023-01-11 16:58:59,543 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout')
-2023-01-11 16:58:59,959 INFO [base.py(base_click:43)] - 正在对：('id', 'btx') 元素执行点击操作！
-2023-01-11 16:58:59,960 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'btx')
-2023-01-11 16:59:01,003 INFO [base.py(base_click:43)] - 正在对：('id', 'au3') 元素执行点击操作！
-2023-01-11 16:59:01,004 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'au3')
-2023-01-11 17:07:17,059 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="1e0749ba-a1cf-44f3-88c8-4344680b147a")>
-2023-01-11 17:07:20,061 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 17:07:20,062 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 17:07:20,875 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 17:07:20,875 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 17:07:21,231 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 17:07:21,231 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 17:07:22,270 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 17:07:23,351 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 17:07:27,437 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 17:07:32,408 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
-2023-01-11 17:07:32,408 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 17:07:37,172 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 17:07:37,191 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 17:07:38,180 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
-2023-01-11 17:07:43,554 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 17:07:43,554 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 17:07:45,247 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 17:07:45,247 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 17:07:49,428 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]/android.widget.TextView')
-2023-01-11 17:07:49,559 INFO [base.py(base_get_text:81)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]/android.widget.TextView') 元素获取文本操作！，获取的文本值：我的
-2023-01-11 17:07:49,560 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout') 元素执行点击操作！
-2023-01-11 17:07:49,560 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout')
-2023-01-11 17:07:49,998 INFO [base.py(base_click:43)] - 正在对：('id', 'btx') 元素执行点击操作！
-2023-01-11 17:07:49,998 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'btx')
-2023-01-11 17:07:51,055 INFO [base.py(base_click:43)] - 正在对：('id', 'au3') 元素执行点击操作！
-2023-01-11 17:07:51,055 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'au3')
-2023-01-11 17:11:54,894 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="038db3ec-6fa3-4501-b87d-556cb109546b")>
-2023-01-11 17:11:57,896 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[7]') 元素执行点击操作！
-2023-01-11 17:11:57,896 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.viewpager.widget.ViewPager/android.widget.RelativeLayout/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout[7]')
-2023-01-11 17:11:58,316 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout') 元素执行点击操作！
-2023-01-11 17:11:58,316 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout')
-2023-01-11 17:27:05,098 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="4a293dc1-01da-4d55-92ce-7aa239818234")>
-2023-01-11 17:27:11,102 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @class='android.widget.LinearLayout']") 元素执行点击操作！
-2023-01-11 17:27:11,102 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @class='android.widget.LinearLayout']")
-2023-01-11 17:27:11,949 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 17:27:11,949 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 17:27:22,659 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout') 元素执行点击操作！
-2023-01-11 17:27:22,659 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout')
-2023-01-11 17:32:14,386 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="30b5b46c-bfe3-4c2e-b350-6ab20d321356")>
-2023-01-11 17:32:20,389 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @class='android.widget.LinearLayout']") 元素执行点击操作！
-2023-01-11 17:32:20,390 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @class='android.widget.LinearLayout']")
-2023-01-11 17:32:21,179 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 17:32:21,179 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 17:32:41,297 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 17:32:41,298 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 17:32:42,072 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 17:32:43,217 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 17:32:47,312 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 17:32:52,368 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
-2023-01-11 17:32:52,368 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 17:32:57,108 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 17:32:57,142 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 17:32:58,331 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
-2023-01-11 17:33:03,523 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 17:33:03,523 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 17:33:05,299 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 17:33:05,299 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 17:33:07,545 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@instance='41' and @resource-id='com.netease.newsreader.activity:id/j6']")
-2023-01-11 17:33:37,876 ERROR [test02_app_article.py(test01_find_channel:35)] - Message: 
+2023-01-12 09:34:31,746 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="cbfb1b57-9bdf-4526-a0f1-e3015871daf8")>
+2023-01-12 09:34:37,749 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-12 09:34:37,749 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-12 09:34:38,291 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-12 09:34:38,291 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-12 09:34:39,727 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
+2023-01-12 09:34:39,728 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
+2023-01-12 09:34:40,427 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-12 09:34:41,436 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-12 09:34:45,501 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
+2023-01-12 09:34:50,371 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-12 09:34:50,371 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-12 09:34:55,117 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-12 09:34:55,148 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-12 09:34:56,065 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
+2023-01-12 09:35:00,934 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-12 09:35:00,934 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-12 09:35:02,661 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-12 09:35:02,661 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-12 09:35:04,834 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='1' and @bounds='[607,1257][652,1278]']")
+2023-01-12 09:35:35,195 ERROR [test02_app_article.py(test01_find_channel:35)] - Message: 
 
-2023-01-11 17:33:37,876 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
-2023-01-11 17:33:38,838 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
-2023-01-11 17:33:39,023 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout') 元素执行点击操作！
-2023-01-11 17:33:39,024 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout')
-2023-01-11 17:33:39,446 INFO [base.py(base_click:43)] - 正在对：('id', 'btx') 元素执行点击操作！
-2023-01-11 17:33:39,447 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'btx')
-2023-01-11 17:33:40,471 INFO [base.py(base_click:43)] - 正在对：('id', 'au3') 元素执行点击操作！
-2023-01-11 17:33:40,471 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'au3')
-2023-01-11 17:34:39,388 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="8cc425bb-99c4-4082-a72b-97fe858f9d68")>
-2023-01-11 17:34:45,392 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @class='android.widget.LinearLayout' and @instance='37']") 元素执行点击操作！
-2023-01-11 17:34:45,393 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @class='android.widget.LinearLayout' and @instance='37']")
-2023-01-11 17:35:09,472 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 17:35:09,473 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 17:35:40,073 ERROR [test02_app_article.py(test01_find_channel:35)] - Message: 
+2023-01-12 09:35:35,195 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
+2023-01-12 09:35:36,088 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
+2023-01-12 09:35:36,294 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout') 元素执行点击操作！
+2023-01-12 09:35:36,294 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout')
+2023-01-12 09:35:36,731 INFO [base.py(base_click:43)] - 正在对：('id', 'btx') 元素执行点击操作！
+2023-01-12 09:35:36,731 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'btx')
+2023-01-12 09:35:37,751 INFO [base.py(base_click:43)] - 正在对：('id', 'au3') 元素执行点击操作！
+2023-01-12 09:35:37,752 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'au3')
+2023-01-12 09:47:22,466 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="d622e7e9-6559-4745-a795-0212484d8353")>
+2023-01-12 09:47:28,469 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-12 09:47:28,469 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-12 09:47:28,959 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-12 09:47:28,960 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-12 09:47:30,363 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-12 09:47:30,363 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-12 09:47:31,070 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-12 09:47:32,095 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-12 09:47:36,241 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
+2023-01-12 09:47:41,289 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-12 09:47:41,290 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-12 09:47:46,034 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-12 09:47:46,060 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-12 09:47:46,977 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
+2023-01-12 09:47:52,001 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-12 09:47:52,001 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-12 09:47:53,726 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-12 09:47:53,726 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-12 09:47:55,952 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='1' and @bounds='[607,1257][652,1278]']")
+2023-01-12 09:48:26,020 ERROR [test02_app_article.py(test01_find_channel:35)] - Message: 
 
-2023-01-11 17:35:40,073 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
-2023-01-11 17:35:40,863 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
-2023-01-11 17:35:41,053 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout') 元素执行点击操作！
-2023-01-11 17:35:41,054 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout')
-2023-01-11 17:37:09,132 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="5f514a6a-e027-4819-a58c-41164a053898")>
-2023-01-11 17:37:15,135 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@class='android.widget.LinearLayout' and @instance='57']") 元素执行点击操作！
-2023-01-11 17:37:15,135 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@class='android.widget.LinearLayout' and @instance='57']")
-2023-01-11 17:37:45,821 ERROR [test02_app_article.py(test01_find_channel:35)] - Message: 
+2023-01-12 09:48:26,020 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
+2023-01-12 09:48:26,913 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
+2023-01-12 09:48:27,130 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout') 元素执行点击操作！
+2023-01-12 09:48:27,131 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout')
+2023-01-12 09:48:27,581 INFO [base.py(base_click:43)] - 正在对：('id', 'btx') 元素执行点击操作！
+2023-01-12 09:48:27,582 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'btx')
+2023-01-12 09:48:28,601 INFO [base.py(base_click:43)] - 正在对：('id', 'au3') 元素执行点击操作！
+2023-01-12 09:48:28,601 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'au3')
+2023-01-12 09:51:34,538 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="eb21e5b8-6f7b-4387-8368-fec6a4eeca2b")>
+2023-01-12 09:51:40,542 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-12 09:51:40,542 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-12 09:51:41,066 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-12 09:51:41,066 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-12 09:51:42,526 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-12 09:51:42,526 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-12 09:51:43,230 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-12 09:51:44,217 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-12 09:51:48,285 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
+2023-01-12 09:51:53,674 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-12 09:51:53,674 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-12 09:51:58,413 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-12 09:51:58,431 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-12 09:51:59,308 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
+2023-01-12 09:52:04,196 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-12 09:52:04,196 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-12 09:52:05,911 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-12 09:52:05,911 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-12 09:52:08,098 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='1' and @bounds='[615,1257][645,1278]']")
+2023-01-12 09:52:08,423 INFO [base.py(base_get_text:81)] - 正在对：('xpath', "//*[@index='1' and @bounds='[615,1257][645,1278]']") 元素获取文本操作！，获取的文本值：我的
+2023-01-12 09:52:08,424 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout') 元素执行点击操作！
+2023-01-12 09:52:08,424 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout')
+2023-01-12 09:52:08,871 INFO [base.py(base_click:43)] - 正在对：('id', 'btx') 元素执行点击操作！
+2023-01-12 09:52:08,871 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'btx')
+2023-01-12 09:52:09,890 INFO [base.py(base_click:43)] - 正在对：('id', 'au3') 元素执行点击操作！
+2023-01-12 09:52:09,890 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'au3')
+2023-01-12 11:04:33,030 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="968f2888-777d-4d3c-963f-2cc9eaed9258")>
+2023-01-12 11:04:39,038 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-12 11:04:39,039 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-12 11:04:39,527 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-12 11:04:39,528 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-12 11:04:40,944 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-12 11:04:40,945 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-12 11:04:41,644 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-12 11:04:42,636 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-12 11:04:46,657 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
+2023-01-12 11:04:51,522 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-12 11:04:51,523 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-12 11:04:56,297 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-12 11:04:56,318 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-12 11:04:57,198 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
+2023-01-12 11:05:02,106 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-12 11:05:02,106 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-12 11:05:03,866 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-12 11:05:03,866 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-12 11:05:06,032 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='1' and @bounds='[615,1257][645,1278]']")
+2023-01-12 11:05:06,264 INFO [base.py(base_get_text:81)] - 正在对：('xpath', "//*[@index='1' and @bounds='[615,1257][645,1278]']") 元素获取文本操作！，获取的文本值：我的
+2023-01-12 11:05:06,265 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bv2' and contains(@text, '设置')]/..") 元素执行点击操作！
+2023-01-12 11:05:06,265 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bv2' and contains(@text, '设置')]/..")
+2023-01-12 11:05:06,706 INFO [base.py(base_click:43)] - 正在对：('id', 'btx') 元素执行点击操作！
+2023-01-12 11:05:06,707 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'btx')
+2023-01-12 11:05:07,786 INFO [base.py(base_click:43)] - 正在对：('id', 'au3') 元素执行点击操作！
+2023-01-12 11:05:07,786 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'au3')
+2023-01-12 11:18:08,407 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="7a022768-fcf1-4b4d-8c40-632e49070db5")>
+2023-01-12 11:18:14,410 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-12 11:18:14,410 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-12 11:18:14,945 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-12 11:18:14,946 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-12 11:18:16,378 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-12 11:18:16,379 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-12 11:18:17,092 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-12 11:18:18,081 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-12 11:18:22,298 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
+2023-01-12 11:18:27,595 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-12 11:18:27,596 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-12 11:18:32,414 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-12 11:18:32,452 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-12 11:18:33,309 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
+2023-01-12 11:18:38,216 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-12 11:18:38,217 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-12 11:18:40,081 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-12 11:18:40,081 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-12 11:18:42,321 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='1' and @bounds='[615,1257][645,1278]']")
+2023-01-12 11:18:42,591 INFO [base.py(base_get_text:81)] - 正在对：('xpath', "//*[@index='1' and @bounds='[615,1257][645,1278]']") 元素获取文本操作！，获取的文本值：我的
+2023-01-12 11:18:42,593 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bv2' and contains(@text, '设置')]/..") 元素执行点击操作！
+2023-01-12 11:18:42,593 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bv2' and contains(@text, '设置')]/..")
+2023-01-12 11:18:43,072 INFO [base.py(base_click:43)] - 正在对：('id', 'btx') 元素执行点击操作！
+2023-01-12 11:18:43,072 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'btx')
+2023-01-12 11:18:44,092 INFO [base.py(base_click:43)] - 正在对：('id', 'au3') 元素执行点击操作！
+2023-01-12 11:18:44,093 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'au3')
+2023-01-12 11:19:17,623 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="d56d70cd-cab0-41b0-8403-fa55c9546f6a")>
+2023-01-12 11:19:23,627 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-12 11:19:23,627 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-12 11:19:24,211 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-12 11:19:24,211 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-12 11:19:25,670 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-12 11:19:25,671 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-12 11:19:26,357 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-12 11:19:27,349 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-12 11:19:31,426 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
+2023-01-12 11:19:36,849 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-12 11:19:36,849 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-12 11:19:41,598 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-12 11:19:41,625 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-12 11:19:42,494 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
+2023-01-12 11:19:47,354 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-12 11:19:47,355 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-12 11:19:49,115 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-12 11:19:49,115 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-12 11:19:51,281 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='1' and @bounds='[615,1257][645,1278]']")
+2023-01-12 11:19:51,528 INFO [base.py(base_get_text:81)] - 正在对：('xpath', "//*[@index='1' and @bounds='[615,1257][645,1278]']") 元素获取文本操作！，获取的文本值：我的
+2023-01-12 11:19:51,529 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bv2' and contains(@text, '设置')]/..") 元素执行点击操作！
+2023-01-12 11:19:51,530 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bv2' and contains(@text, '设置')]/..")
+2023-01-12 11:19:51,924 INFO [base.py(base_click:43)] - 正在对：('id', 'btx') 元素执行点击操作！
+2023-01-12 11:19:51,925 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'btx')
+2023-01-12 11:19:53,067 INFO [base.py(base_click:43)] - 正在对：('id', 'au3') 元素执行点击操作！
+2023-01-12 11:19:53,068 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'au3')
+2023-01-12 11:22:34,511 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="767a225e-8d0b-465f-8865-2c21e85cd3af")>
+2023-01-12 11:22:40,514 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-12 11:22:40,515 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-12 11:22:41,201 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-12 11:22:41,201 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-12 11:22:42,595 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-12 11:22:42,595 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-12 11:22:43,322 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'com.netease.newsreader.activity:id/ajy')
+2023-01-12 11:22:44,301 INFO [base.py(base_input:55)] - 正在对：('id', 'com.netease.newsreader.activity:id/ajy') 元素执行清空操作！
+2023-01-12 11:22:48,376 INFO [base.py(base_input:57)] - 正在对：('id', 'com.netease.newsreader.activity:id/ajy') 元素执行输入：18340812842@163.com 操作！
+2023-01-12 11:22:53,863 INFO [base.py(base_click:43)] - 正在对：('id', 'com.netease.newsreader.activity:id/ajy') 元素执行点击操作！
+2023-01-12 11:22:53,863 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'com.netease.newsreader.activity:id/ajy')
+2023-01-12 11:22:58,614 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'com.netease.newsreader.activity:id/aka')
+2023-01-12 11:22:58,630 INFO [base.py(base_input:55)] - 正在对：('id', 'com.netease.newsreader.activity:id/aka') 元素执行清空操作！
+2023-01-12 11:22:59,492 INFO [base.py(base_input:57)] - 正在对：('id', 'com.netease.newsreader.activity:id/aka') 元素执行输入：Mdhdhbbz 操作！
+2023-01-12 11:23:04,336 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-12 11:23:04,337 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-12 11:23:06,093 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-12 11:23:06,093 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-12 11:23:08,347 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='1' and @bounds='[615,1257][645,1278]']")
+2023-01-12 11:23:08,623 INFO [base.py(base_get_text:81)] - 正在对：('xpath', "//*[@index='1' and @bounds='[615,1257][645,1278]']") 元素获取文本操作！，获取的文本值：我的
+2023-01-12 11:23:08,629 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bv2' and contains(@text, '设置')]/..") 元素执行点击操作！
+2023-01-12 11:23:08,630 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bv2' and contains(@text, '设置')]/..")
+2023-01-12 11:23:09,047 INFO [base.py(base_click:43)] - 正在对：('id', 'btx') 元素执行点击操作！
+2023-01-12 11:23:09,048 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'btx')
+2023-01-12 11:23:10,100 INFO [base.py(base_click:43)] - 正在对：('id', 'au3') 元素执行点击操作！
+2023-01-12 11:23:10,100 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'au3')
+2023-01-12 11:24:03,329 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="cc13506a-c2da-46b4-8e08-d67ae27ba01f")>
+2023-01-12 11:24:09,331 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-12 11:24:09,331 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-12 11:24:09,874 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-12 11:24:09,874 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-12 11:24:11,377 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-12 11:24:11,377 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-12 11:24:12,094 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'com.netease.newsreader.activity:id/ajy')
+2023-01-12 11:24:13,101 INFO [base.py(base_input:55)] - 正在对：('id', 'com.netease.newsreader.activity:id/ajy') 元素执行清空操作！
+2023-01-12 11:24:17,138 INFO [base.py(base_input:57)] - 正在对：('id', 'com.netease.newsreader.activity:id/ajy') 元素执行输入：18340812842@163.com 操作！
+2023-01-12 11:24:22,040 INFO [base.py(base_click:43)] - 正在对：('id', 'com.netease.newsreader.activity:id/ajy') 元素执行点击操作！
+2023-01-12 11:24:22,040 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'com.netease.newsreader.activity:id/ajy')
+2023-01-12 11:24:26,798 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout[2]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText')
+2023-01-12 11:24:26,872 INFO [base.py(base_input:55)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout[2]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText') 元素执行清空操作！
+2023-01-12 11:24:27,790 INFO [base.py(base_input:57)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout[2]/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.EditText') 元素执行输入：Mdhdhbbz 操作！
+2023-01-12 11:24:32,647 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-12 11:24:32,648 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-12 11:24:34,377 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-12 11:24:34,377 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-12 11:24:36,616 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='1' and @bounds='[615,1257][645,1278]']")
+2023-01-12 11:24:36,800 INFO [base.py(base_get_text:81)] - 正在对：('xpath', "//*[@index='1' and @bounds='[615,1257][645,1278]']") 元素获取文本操作！，获取的文本值：我的
+2023-01-12 11:24:36,802 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bv2' and contains(@text, '设置')]/..") 元素执行点击操作！
+2023-01-12 11:24:36,802 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bv2' and contains(@text, '设置')]/..")
+2023-01-12 11:24:37,289 INFO [base.py(base_click:43)] - 正在对：('id', 'btx') 元素执行点击操作！
+2023-01-12 11:24:37,290 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'btx')
+2023-01-12 11:24:38,300 INFO [base.py(base_click:43)] - 正在对：('id', 'au3') 元素执行点击操作！
+2023-01-12 11:24:38,301 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'au3')
+2023-01-12 11:36:13,874 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="ea3cbd49-bf68-4a74-bb07-5c9f8408fc76")>
+2023-01-12 11:36:16,876 INFO [app_base.py(app_base_right_wipe_left:36)] - 正在调用从右向左滑动屏幕方法
+2023-01-12 11:36:16,876 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b6i')
+2023-01-12 11:36:19,479 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 11:36:25,958 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 11:41:24,105 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="87b26582-8872-4b37-9d00-1541a0282885")>
+2023-01-12 11:41:27,108 INFO [app_base.py(app_base_right_wipe_left:36)] - 正在调用从右向左滑动屏幕方法
+2023-01-12 11:41:27,108 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b6i')
+2023-01-12 11:41:29,574 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 11:41:36,127 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 14:47:55,599 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="61de50fc-f540-4e35-bf8d-3ca015b08409")>
+2023-01-12 14:47:58,601 INFO [app_base.py(app_base_right_wipe_left:67)] - 正在调用从右向左滑动屏幕方法
+2023-01-12 14:47:58,601 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b6i')
+2023-01-12 14:48:00,932 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 14:48:07,439 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 16:17:09,258 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="f5eee35d-a4af-4e95-a4f0-8d266a75f6e6")>
+2023-01-12 16:17:12,260 INFO [app_base.py(app_base_right_wipe_left:67)] - 正在调用从右向左滑动屏幕方法
+2023-01-12 16:17:12,260 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b6i')
+2023-01-12 16:17:14,671 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 16:17:21,279 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 16:17:25,769 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:17:32,835 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:17:39,677 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:17:46,123 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:17:52,937 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:17:59,622 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:18:06,374 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:18:13,256 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:18:20,046 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:18:26,860 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:18:33,520 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:18:40,539 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:18:47,353 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:18:54,180 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:19:00,952 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:19:07,732 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:19:14,550 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:19:21,352 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:19:28,491 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:19:35,212 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:19:43,966 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:19:50,529 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '猎鹰九号')]")
+2023-01-12 16:19:54,917 ERROR [test02_app_article.py(test01_find_channel:36)] - Message: None
 
-2023-01-11 17:37:45,822 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
-2023-01-11 17:37:47,032 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
-2023-01-11 17:37:47,317 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout') 元素执行点击操作！
-2023-01-11 17:37:47,317 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout')
-2023-01-11 17:43:21,927 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="a7f2a2d0-4b9d-4df7-84f3-0aeb4c541bca")>
-2023-01-11 17:43:27,932 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]') 元素执行点击操作！
-2023-01-11 17:43:27,932 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]')
-2023-01-11 17:43:28,487 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-11 17:43:28,487 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-11 17:43:29,930 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView') 元素执行点击操作！
-2023-01-11 17:43:29,931 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[4]/android.widget.TextView')
-2023-01-11 17:43:30,613 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 17:43:31,660 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-11 17:43:35,779 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
-2023-01-11 17:43:40,711 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
-2023-01-11 17:43:40,712 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-11 17:43:45,371 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-11 17:43:45,401 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-11 17:43:46,343 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
-2023-01-11 17:43:51,170 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-11 17:43:51,171 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-11 17:43:52,900 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-11 17:43:52,900 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-11 17:43:55,067 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]/android.widget.TextView')
-2023-01-11 17:43:55,336 INFO [base.py(base_get_text:81)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TabHost/android.widget.TabWidget/android.widget.LinearLayout[4]/android.widget.TextView') 元素获取文本操作！，获取的文本值：我的
-2023-01-11 17:43:55,338 INFO [base.py(base_click:43)] - 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout') 元素执行点击操作！
-2023-01-11 17:43:55,338 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[3]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout')
-2023-01-11 17:43:55,861 INFO [base.py(base_click:43)] - 正在对：('id', 'btx') 元素执行点击操作！
-2023-01-11 17:43:55,861 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'btx')
-2023-01-11 17:43:56,920 INFO [base.py(base_click:43)] - 正在对：('id', 'au3') 元素执行点击操作！
-2023-01-11 17:43:56,921 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'au3')
+2023-01-12 16:19:54,917 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
+2023-01-12 16:19:56,083 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
+2023-01-12 16:27:35,757 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="1d8a1f37-d256-476d-8ebe-780f51ec6013")>
+2023-01-12 16:27:38,761 INFO [app_base.py(app_base_right_wipe_left:67)] - 正在调用从右向左滑动屏幕方法
+2023-01-12 16:27:38,761 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b6i')
+2023-01-12 16:27:41,176 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 16:27:47,709 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 16:27:52,158 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:27:59,249 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:28:06,099 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:28:13,219 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:28:20,267 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:28:26,619 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:28:33,654 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:28:40,570 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:28:47,598 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:28:54,377 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:29:01,157 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:29:08,059 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:29:15,009 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:29:21,897 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:29:28,803 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:29:35,649 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:29:42,719 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:29:49,720 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:29:56,359 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:30:03,159 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:30:10,188 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:30:17,030 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:30:23,849 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:30:30,770 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:30:36,996 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '国际')]")
+2023-01-12 16:30:41,587 ERROR [test02_app_article.py(test01_find_channel:36)] - Message: None
+
+2023-01-12 16:30:41,587 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
+2023-01-12 16:30:42,753 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
+2023-01-12 16:31:03,924 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="02776467-22d8-47b9-b90a-117ce310353d")>
+2023-01-12 16:31:06,927 INFO [app_base.py(app_base_right_wipe_left:67)] - 正在调用从右向左滑动屏幕方法
+2023-01-12 16:31:06,927 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b6i')
+2023-01-12 16:31:09,283 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 16:31:15,769 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 16:31:20,268 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:31:27,307 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:31:34,199 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:31:41,223 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:31:48,093 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:31:55,055 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:32:01,606 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:32:08,390 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:32:15,297 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:32:22,314 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:32:29,333 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:32:36,147 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:32:42,847 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:32:49,476 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:32:56,557 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:33:03,390 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:33:10,164 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:33:16,941 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:33:23,934 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:33:30,847 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource_id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:43:57,250 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="317083a1-23c9-4fce-8211-043b468f6c7b")>
+2023-01-12 16:44:00,253 INFO [app_base.py(app_base_right_wipe_left:67)] - 正在调用从右向左滑动屏幕方法
+2023-01-12 16:44:00,253 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b6i')
+2023-01-12 16:44:02,660 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 16:44:09,131 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 16:44:13,567 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 16:58:05,960 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="c41f218e-e141-49af-91b6-8a9a88738c69")>
+2023-01-12 16:58:08,962 INFO [base.py(base_click:43)] - 正在对：('id', 'bb2') 元素执行点击操作！
+2023-01-12 16:58:08,962 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bb2')
+2023-01-12 16:58:10,182 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bb8')
+2023-01-12 16:58:10,356 INFO [base.py(base_input:55)] - 正在对：('id', 'bb8') 元素执行清空操作！
+2023-01-12 16:58:14,427 INFO [base.py(base_input:57)] - 正在对：('id', 'bb8') 元素执行输入：中国 操作！
+2023-01-12 16:58:19,364 INFO [base.py(base_click:43)] - 正在对：('id', 'bav') 元素执行点击操作！
+2023-01-12 16:58:19,364 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bav')
+2023-01-12 17:24:41,002 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="fec021d7-ebe9-4b80-a085-127768b0752f")>
+2023-01-12 17:24:44,005 INFO [app_base.py(app_base_right_wipe_left:68)] - 正在调用从右向左滑动屏幕方法
+2023-01-12 17:24:44,005 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b6i')
+2023-01-12 17:24:46,419 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 17:24:53,463 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 17:24:57,947 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 17:25:05,050 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 17:33:49,984 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="bef91f28-cc05-478b-bbf5-4d04801b560b")>
+2023-01-12 17:33:52,987 INFO [app_base.py(app_base_right_wipe_left:68)] - 正在调用从右向左滑动屏幕方法
+2023-01-12 17:33:52,987 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b6i')
+2023-01-12 17:33:55,360 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 17:34:01,825 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
+2023-01-12 17:34:06,288 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")

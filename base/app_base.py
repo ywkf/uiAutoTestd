@@ -3,6 +3,7 @@ from time import sleep
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 
+import page
 from base.base import Base
 from tools.get_log import GetLog
 
@@ -31,26 +32,8 @@ class AppBase(Base):
             print("未找到该元素：{}".format(loc))
             return False
 
-    # 2. 从右向左滑动屏幕
-    def app_base_right_wipe_left(self, loc_area, click_text):
-        log.info("正在调用从右向左滑动屏幕方法")
-        # 1. 查找区域元素
-        el = self.base_find_element(loc_area)
-        # 2. 获取区域元素的位置 y坐标点
-        y = el.location.get("y")
-        # 3. 获取区域元素宽高
-        width = el.size.get("width")
-        height = el.size.get("height")
-        # 4. 计算 start_x, start_y, end_x, end_y
-        start_x = width * 0.8
-        start_y = y + height * 0.5
-        end_x = width * 0.2
-        end_y = y + height * 0.5
-
-        # 组合频道元素配置信息
-        loc = By.XPATH, "//*[@index='0' and contains(@text,'体育')]".format(click_text)
-        # loc = By.XPATH, "//android.widget.RelativeLayout[@content-desc='{}']/android.widget.TextView".format(click_text)
-        # 5. 循环操作
+    # 循环滑动查找点击
+    def __wipe_search(self, loc, coord):
         while True:
             # 1. 获取当前屏幕页面结构
             page_source = self.driver.page_source
@@ -69,9 +52,10 @@ class AppBase(Base):
             # 3. 处理异常
             except:
                 # 1. 输出提示信息
-                print("未找到：{}元素！".format(loc))
+                print("未找到：{}元素！划一划".format(loc))
                 # 2. 滑动屏幕
-                self.driver.swipe(start_x, start_y, end_x, end_y, duration=2000)
+                self.driver.swipe(coord.get("start_x"), coord.get("start_y"), coord.get("end_x"), coord.get("end_y"),
+                                  duration=2000)
             # 4. 判断是否为最后一页
             if page_source == self.driver.page_source:
                 # 1. 输出提示信息
@@ -79,6 +63,59 @@ class AppBase(Base):
                 # 2. 抛出未找到元素异常
                 raise NoSuchElementException
 
+    # 2. 从右向左滑动屏幕查找点击
+    def app_base_right_wipe_left(self, loc_area, click_text):
+        log.info("正在调用从右向左滑动屏幕方法")
+        # 1. 查找区域元素
+        el = self.base_find_element(loc_area)
+        # 2. 获取区域元素的位置 y坐标点
+        y = el.location.get("y")
+        # 3. 获取区域元素宽高
+        width = el.size.get("width")
+        height = el.size.get("height")
+        # 4. 计算 start_x, start_y, end_x, end_y
+        coord = {}
+        coord["start_x"] = width * 0.8
+        coord["start_y"] = y + height * 0.5
+        coord["end_x"] = width * 0.2
+        coord["end_y"] = y + height * 0.5
+
+        # 获取频道元素配置信息
+        loc = page.get_channel_loc(click_text)
+        # 5. 循环操作
+        self.__wipe_search(loc, coord)
+
+    # 3. 从下向上滑动屏幕查点击
+    def app_base_down_wipe_up(self, loc_area, click_text):
+        # 查找区域元素
+        el = self.base_find_element(loc_area)
+        # 获取区域x坐标
+        x = el.location.get("x")
+        # 获取区域宽高
+        width = el.size.get("width")
+        height = el.size.get("height")
+        # 计算滑动区域
+        coord = {}
+        coord["start_x"] = width * 0.5
+        coord["start_y"] = height * 0.8
+        coord["end_x"] = width * 0.5
+        coord["end_y"] = height * 0.2
+
+        # 获取文章元素配置信息
+        loc = page.get_article_loc(click_text)
+        self.__wipe_search(loc, coord)
+
+    # 从下向上滑动屏幕查找点击
+    def app_base_wipe_up(self, loc):
+
+        coord = {}
+        coord["start_x"] = 360
+        coord["start_y"] = 1024
+        coord["end_x"] = 360
+        coord["end_y"] = 256
+
+        # loc = page.get_article_loc(click_text)
+        self.__wipe_search(loc, coord)
 
 
 

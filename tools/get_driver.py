@@ -59,6 +59,10 @@ class GetDriver:
             desired_caps['appPackage'] = page.appPackage
             # 启动名
             desired_caps['appActivity'] = page.appActivity
+            # 使用unicode编码方式发送字符串
+            desired_caps['unicodeKeyboard'] = True
+            # 重置自动化时设置的键盘
+            desired_caps['resetKeyboard'] = True
             # 设置driver
             cls.__app_driver = appium.webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)
         # 返回driver
