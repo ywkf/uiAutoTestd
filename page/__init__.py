@@ -58,3 +58,4 @@ app_search_column = By.ID, "bb2"
 app_search_column2 = By.ID, "bb8"
 # 搜索按钮
 app_search_btn = By.ID, "bav"
+# 搜索
