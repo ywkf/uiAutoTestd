@@ -21,7 +21,6 @@ class TestAppArticle:
 
     # 关闭driver
     def teardown_class(self):
-        # self.app_article.logout()
         GetDriver.quit_app_driver()
 
     # 测试查找频道
@@ -31,8 +30,6 @@ class TestAppArticle:
             # self.app_article.search("中国")
             self.app_article.click_channel("科技")
             self.app_article.click_article("中国")
-            # self.app_article.login(page.wy_email, page.wy_pwd)
-            # assert "我的" == self.app_article.profile_menu_get_state()
         except Exception as e:
             log.error(e)
             self.app_article.base_screenshot()

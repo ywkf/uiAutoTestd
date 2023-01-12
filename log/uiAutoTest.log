@@ -352,3 +352,30 @@
 2023-01-12 17:33:55,360 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
 2023-01-12 17:34:01,825 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bp_' and contains(@text, '科技')]")
 2023-01-12 17:34:06,288 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bey' and contains(@text, '中国')]")
+2023-01-12 17:50:50,916 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="b17615e9-a540-4565-945e-c4b299b7adb0")>
+2023-01-12 17:50:56,921 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-12 17:50:56,921 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-12 17:50:57,412 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-12 17:50:57,412 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-12 17:50:58,872 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-12 17:50:58,872 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-12 17:50:59,583 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-12 17:51:00,565 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-12 17:51:04,542 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
+2023-01-12 17:51:09,803 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-12 17:51:09,803 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-12 17:51:14,593 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-12 17:51:14,613 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-12 17:51:15,517 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
+2023-01-12 17:51:20,368 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-12 17:51:20,369 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-12 17:51:22,123 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-12 17:51:22,123 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-12 17:51:24,282 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='1' and @bounds='[615,1257][645,1278]']")
+2023-01-12 17:51:24,487 INFO [base.py(base_get_text:81)] - 正在对：('xpath', "//*[@index='1' and @bounds='[615,1257][645,1278]']") 元素获取文本操作！，获取的文本值：我的
+2023-01-12 17:51:24,488 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bv2' and contains(@text, '设置')]/..") 元素执行点击操作！
+2023-01-12 17:51:24,488 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bv2' and contains(@text, '设置')]/..")
+2023-01-12 17:51:24,922 INFO [base.py(base_click:43)] - 正在对：('id', 'btx') 元素执行点击操作！
+2023-01-12 17:51:24,923 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'btx')
+2023-01-12 17:51:25,947 INFO [base.py(base_click:43)] - 正在对：('id', 'au3') 元素执行点击操作！
+2023-01-12 17:51:25,948 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'au3')
