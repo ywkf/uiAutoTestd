@@ -1,7 +1,0 @@
-[32mINFO    [0m root:base.py:21 正在初始化 driver: <selenium.webdriver.remote.webdriver.WebDriver (session="af5e4c4b-d0f6-4cd9-b5a9-c4ebdae218bc")>
-[32mINFO    [0m root:app_base.py:26 正在调用从右向左滑动屏幕方法
-[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'com.netease.newsreader.activity:id/bxg')
-[31m[1mERROR   [0m root:test02_app_article.py:28 Message: 
-
-[31m[1mERROR   [0m root:base.py:182 断言出错，正在执行截图操作！
-[31m[1mERROR   [0m root:base.py:185 断言出错，正在将错误截图写入allure报告！

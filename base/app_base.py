@@ -18,6 +18,9 @@ class AppBase(Base):
 
     # 左滑屏幕
     def app_base_wipe_to_left(self):
+        """
+        720*1280
+        """
         self.driver.swipe(690, 574, 0, 574, duration=2000)
 
     # 1. 查找是否存在元素
@@ -87,6 +90,7 @@ class AppBase(Base):
 
     # 3. 从下向上滑动屏幕查点击
     def app_base_down_wipe_up(self, loc_area, click_text):
+        log.info("正在调用从下向上滑动屏幕方法")
         # 查找区域元素
         el = self.base_find_element(loc_area)
         # 获取区域x坐标
@@ -107,7 +111,11 @@ class AppBase(Base):
 
     # 从下向上滑动屏幕查找点击
     def app_base_wipe_up(self, loc):
-
+        """
+        720*1280
+        :param loc: 元素定位
+        """
+        log.info("正在调用从下向上滑动屏幕点击方法")
         coord = {}
         coord["start_x"] = 360
         coord["start_y"] = 1024
@@ -116,6 +124,40 @@ class AppBase(Base):
 
         # loc = page.get_article_loc(click_text)
         self.__wipe_search(loc, coord)
+
+    # 下拉刷新查找点击
+    def app_base_wipe_refresh(self, loc):
+        """
+        720*1280
+        """
+        log.info("正在调用下拉刷新方法")
+        while True:
+            # 1. 获取当前屏幕页面结构
+            page_source = self.driver.page_source
+            # 2. 捕获异常
+            try:
+                sleep(2)
+                # 1. 查找元素
+                el = self.base_find_element(loc, timeout=3)
+                # 2. 输出提示信息
+                print("找到：{} 元素啦！".format(loc))
+                sleep(2)
+                # 3. 点击元素
+                el.click()
+                # 4. 跳出循环
+                break
+            # 3. 处理异常
+            except:
+                # 1. 输出提示信息
+                print("未找到：{}元素！划一划".format(loc))
+                # 2. 滑动屏幕刷新页面
+                self.driver.swipe(360, 256, 360, 1024)
+            # 4. 判断是否为最后一页
+            if page_source == self.driver.page_source:
+                # 1. 输出提示信息
+                print("滑到最后一屏幕，未到找元素！")
+                # 2. 抛出未找到元素异常
+                raise NoSuchElementException
 
 
 

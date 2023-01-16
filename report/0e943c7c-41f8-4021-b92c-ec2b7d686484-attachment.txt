@@ -1,7 +1,0 @@
-[32mINFO    [0m root:base.py:21 正在初始化 driver: <selenium.webdriver.remote.webdriver.WebDriver (session="b7fb10a7-da47-4101-9a8e-613cc77c09de")>
-[32mINFO    [0m root:base.py:43 正在对：('id', 'com.netease.newsreader.activity:id/bog') 元素执行点击操作！
-[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'com.netease.newsreader.activity:id/bog')
-[1m[31mERROR   [0m root:test02_app_article.py:29 Message: 
-
-[1m[31mERROR   [0m root:base.py:182 断言出错，正在执行截图操作！
-[1m[31mERROR   [0m root:base.py:185 断言出错，正在将错误截图写入allure报告！

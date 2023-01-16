@@ -1,8 +1,0 @@
-[32mINFO    [0m root:base.py:21 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="d479cc2d-8f3a-4219-b0cd-bd3fadf884da")>
-[32mINFO    [0m root:base.py:43 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]') 元素执行点击操作！
-[32mINFO    [0m root:base.py:33 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]')
-[32mINFO    [0m root:base.py:43 正在对：('xpath', "//android.widget.RelativeLayout[@content-desc='抗疫栏目，按钮']/android.widget.TextView") 元素执行点击操作！
-[32mINFO    [0m root:base.py:33 正在查找元素：('xpath', "//android.widget.RelativeLayout[@content-desc='抗疫栏目，按钮']/android.widget.TextView")
-[1m[31mERROR   [0m root:test02_app_article.py:30 ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-[1m[31mERROR   [0m root:base.py:182 断言出错，正在执行截图操作！
-[1m[31mERROR   [0m root:base.py:185 断言出错，正在将错误截图写入allure报告！

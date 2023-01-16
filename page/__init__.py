@@ -10,10 +10,12 @@ app_agree = By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.Line
 app_agree_authority = By.XPATH, "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.Button[2]"
 # 频道区域
 app_channel_area = By.ID, "b6i"
+# 底部首页
+app_down_index = By.XPATH, "//*[@index='0' and @bounds='[0,1211][180,1280]']"
 # 底部个人信息
 app_down_profile = By.XPATH, "//*[@index='3' and @bounds='[540,1211][720,1280]']"
 # 个人信息文本
-app_profile_state = By.XPATH, "//*[@index='1' and @bounds='[615,1257][645,1278]']"
+app_profile_state_text = By.XPATH, "//*[@index='1' and @bounds='[615,1257][645,1278]']"
 # 登录按钮
 app_login_btn = By.ID, "as0"
 # 邮箱登录按钮
@@ -27,9 +29,11 @@ app_agree_protocol = By.ID, "bil"
 # 开始使用按钮
 app_login_start_btn = By.ID, "y1"
 # 邮箱
-wy_email = "xxxxxx"
+wy_email = "xxx"
 # 密码
-wy_pwd = "xxxxxx"
+wy_pwd = "xxx"
+# 个人信息登录状态
+app_profile_state = By.XPATH, "//*[@resource-id='com.netease.newsreader.activity:id/j6' and contains(@text, '我的')]"
 # 设置按钮
 app_options = By.XPATH, "//*[@resource-id='com.netease.newsreader.activity:id/bv2' and contains(@text, '设置')]/.."
 # 登出按钮
@@ -58,4 +62,5 @@ app_search_column = By.ID, "bb2"
 app_search_column2 = By.ID, "bb8"
 # 搜索按钮
 app_search_btn = By.ID, "bav"
-# 搜索
+# 搜索结果
+app_search_results = By.ID, "bey"

@@ -1,9 +1,0 @@
-[32mINFO    [0m root:base.py:21 正在初始化 driver: <selenium.webdriver.remote.webdriver.WebDriver (session="38b2932a-0715-436c-8bdb-4ff931e9718a")>
-[32mINFO    [0m root:base.py:43 正在对：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]') 元素执行点击操作！
-[32mINFO    [0m root:base.py:33 正在查找元素：('xpath', '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.Button[2]')
-[32mINFO    [0m root:app_base.py:28 正在调用从右向左滑动屏幕方法
-[32mINFO    [0m root:base.py:33 正在查找元素：('id', 'com.netease.newsreader.activity:id/bxg')
-[1m[31mERROR   [0m root:test02_app_article.py:29 Message: 
-
-[1m[31mERROR   [0m root:base.py:182 断言出错，正在执行截图操作！
-[1m[31mERROR   [0m root:base.py:185 断言出错，正在将错误截图写入allure报告！

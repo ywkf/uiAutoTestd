@@ -2,6 +2,9 @@ from time import sleep
 
 import page
 from base.app_base import AppBase
+from tools.get_log import GetLog
+
+log = GetLog.get_logger()
 
 
 class PageAppLogin(AppBase):
@@ -36,7 +39,12 @@ class PageAppLogin(AppBase):
 
     # 获取个人信息登录状态
     def page_get_profile_menu_state(self):
-        return self.base_get_text(page.app_profile_state)
+        return self.base_get_text(page.app_profile_state_text)
+
+    # 判断是否存在我的页面
+    def page_is_login_success(self):
+        sleep(1)
+        return self.app_base_is_exist(page.app_profile_state)
 
     # 点击设置按钮
     def page_click_options_btn(self):
@@ -52,6 +60,7 @@ class PageAppLogin(AppBase):
 
     # 组合登录方法
     def page_app_login(self, email, pwd):
+        log.info("正在调用app登录业务方法，邮箱：{}，密码：{}".format(email, pwd))
         sleep(3)
         self.page_click_profile()
         self.page_click_login_btn()
@@ -67,13 +76,15 @@ class PageAppLogin(AppBase):
 
     # 组合登出方法
     def page_app_logout(self):
+        log.info("正在调用app登出业务方法")
         self.page_click_options_btn()
         self.page_click_logout_btn()
         self.page_click_logout_confirm()
 
     # 登录成功方法
-    def page_app_login_success(self):
-        pass
+    def page_app_login_success(self, email="xxx", pwd="xxx"):
+        log.info("正在调用app登录业务方法，邮箱：{}，密码：{}".format(email, pwd))
+        self.page_app_login(email, pwd)
 
 
 
