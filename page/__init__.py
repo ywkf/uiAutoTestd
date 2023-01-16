@@ -27,9 +27,9 @@ app_agree_protocol = By.ID, "bil"
 # 开始使用按钮
 app_login_start_btn = By.ID, "y1"
 # 邮箱
-wy_email = "xxx"
+wy_email = "xxxxxx"
 # 密码
-wy_pwd = "xxx"
+wy_pwd = "xxxxxx"
 # 设置按钮
 app_options = By.XPATH, "//*[@resource-id='com.netease.newsreader.activity:id/bv2' and contains(@text, '设置')]/.."
 # 登出按钮
