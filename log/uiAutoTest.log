@@ -7,12 +7,12 @@
 2023-01-16 11:02:40,623 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
 2023-01-16 11:02:41,691 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
 2023-01-16 11:02:42,715 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-16 11:02:46,956 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：18340812842@163.com 操作！
+2023-01-16 11:02:46,956 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
 2023-01-16 11:02:53,230 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
 2023-01-16 11:02:53,230 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
 2023-01-16 11:02:57,980 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
 2023-01-16 11:02:58,009 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-16 11:02:58,907 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：Mdhdhbbz 操作！
+2023-01-16 11:02:58,907 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
 2023-01-16 11:03:03,831 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
 2023-01-16 11:03:03,831 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
 2023-01-16 11:03:05,530 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
