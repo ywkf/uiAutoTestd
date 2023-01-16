@@ -16,6 +16,8 @@ class TestAppArticle:
         driver = GetDriver.get_app_driver()
         # 获取入口类
         self.page_in = PageIn(driver)
+        # 调用登录方法
+        self.page_in.page_get_app_login().page_app_login_success()
         # 获取PageAppArticle
         self.app_article = self.page_in.page_get_app_article()
 
@@ -27,9 +29,9 @@ class TestAppArticle:
     def test01_find_channel(self):
         try:
             sleep(3)
-            # self.app_article.search("中国")
-            self.app_article.click_channel("科技")
-            self.app_article.click_article("中国")
+            # self.app_article.page_search("中国")
+            self.app_article.page_click_channel("科技")
+            self.app_article.page_click_article("中国")
         except Exception as e:
             log.error(e)
             self.app_article.base_screenshot()

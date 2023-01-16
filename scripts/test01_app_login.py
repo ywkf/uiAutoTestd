@@ -19,15 +19,15 @@ class TestAppLogin:
 
     # 关闭driver
     def teardown_class(self):
-        self.app_login.logout()
+        self.app_login.page_app_logout()
         GetDriver.quit_app_driver()
 
     # 测试登录
     def test01_app_login(self):
         sleep(3)
-        self.app_login.login(page.wy_email, page.wy_pwd)
+        self.app_login.page_app_login(page.wy_email, page.wy_pwd)
         try:
-            assert "我的" == self.app_login.get_profile_menu_state()
+            assert "我的" == self.app_login.page_get_profile_menu_state()
         except Exception as e:
             log.error(e)
             self.app_login.base_screenshot()
