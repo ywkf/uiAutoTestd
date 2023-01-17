@@ -67,7 +67,7 @@ class AppBase(Base):
                 raise NoSuchElementException
 
     # 2. 从右向左滑动屏幕查找点击
-    def app_base_right_wipe_left(self, loc_area, click_text):
+    def app_base_right_wipe_left(self, loc_area, loc):
         log.info("正在调用从右向左滑动屏幕方法")
         # 1. 查找区域元素
         el = self.base_find_element(loc_area)
@@ -84,12 +84,12 @@ class AppBase(Base):
         coord["end_y"] = y + height * 0.5
 
         # 获取频道元素配置信息
-        loc = page.get_channel_loc(click_text)
+        # loc = page.get_channel_loc(click_text)
         # 5. 循环操作
         self.__wipe_search(loc, coord)
 
     # 3. 从下向上滑动屏幕查点击
-    def app_base_down_wipe_up(self, loc_area, click_text):
+    def app_base_down_wipe_up(self, loc_area, loc):
         log.info("正在调用从下向上滑动屏幕方法")
         # 查找区域元素
         el = self.base_find_element(loc_area)
@@ -106,7 +106,7 @@ class AppBase(Base):
         coord["end_y"] = height * 0.2
 
         # 获取文章元素配置信息
-        loc = page.get_article_loc(click_text)
+        # loc = page.get_article_loc(click_text)
         self.__wipe_search(loc, coord)
 
     # 从下向上滑动屏幕查找点击
@@ -158,6 +158,15 @@ class AppBase(Base):
                 print("滑到最后一屏幕，未到找元素！")
                 # 2. 抛出未找到元素异常
                 raise NoSuchElementException
+
+    # 输入投票选项
+    def app_base_input_options(self, options="1"):
+        options = [2, 3, "钝角", "C"]
+        j = 1
+        for i in options:
+            loc = page.get_options_loc(j)
+            self.base_input(loc, i)
+            j += 1
 
 
 

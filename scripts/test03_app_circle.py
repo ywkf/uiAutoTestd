@@ -1,6 +1,9 @@
+import pytest
+
 from page.page_in import PageIn
 from tools.get_driver import GetDriver
 from tools.get_log import GetLog
+from tools.read_yaml import read_yaml
 
 log = GetLog.get_logger()
 
@@ -15,7 +18,7 @@ class TestAppCircle:
         self.page_in = PageIn(driver)
         # 调用登录方法
         self.page_in.page_get_app_login().page_app_login_success()
-        # 获取PageAppCricle
+        # 获取PageAppCircle
         self.circle = self.page_in.page_get_app_circle()
 
     # 关闭driver
@@ -23,17 +26,13 @@ class TestAppCircle:
         GetDriver.quit_app_driver()
 
     # 测试圈子发布文章
-    def test01_app_circle_article(self):
+    @pytest.mark.parametrize("circle,title,text", read_yaml("app_circle.yaml"))
+    def test01_app_circle_article(self, circle, title, text):
         try:
-            pass
+            # self.circle.page_publish_article_image(circle, title, text)
+            self.circle.page_publish_article_vote(circle, title, text, vote_title="1+1=?", options=[])
+            self.circle.page_search_article(circle, title)
         except Exception as e:
             log.error(e)
             self.circle.base_screenshot()
             raise
-
-
-
-
-
-
-

@@ -41,7 +41,8 @@ class PageAppArticle(AppBase):
 
     # 查找频道
     def page_click_channel(self, click_text):
-        self.app_base_right_wipe_left(page.app_channel_area, click_text)
+        loc = page.get_channel_loc(click_text)
+        self.app_base_right_wipe_left(page.app_channel_area, loc)
 
     # 查找文章
     def page_click_article(self, click_text):
