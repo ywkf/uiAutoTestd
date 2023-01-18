@@ -6,9 +6,9 @@ import os
 
 
 class GetLog:
-
     # 新建一个日志器变量
     __logger = None
+
     # 新建获取日志器的方法
     @classmethod
     def get_logger(cls):
@@ -18,7 +18,7 @@ class GetLog:
             cls.__logger = logging.getLogger()
             # 修改默认级别
             cls.__logger.setLevel(logging.INFO)
-            log_path = BASE_PATH + os.sep + "log" + os.sep +"uiAutoTest.log"
+            log_path = BASE_PATH + os.sep + "log" + os.sep + "uiAutoTest.log"
             # 获取处理器
             th = logging.handlers.TimedRotatingFileHandler(filename=log_path,
                                                            when="midnight",
@@ -34,6 +34,7 @@ class GetLog:
             cls.__logger.addHandler(th)
         # 返回日志器
         return cls.__logger
+
 
 if __name__ == '__main__':
     log = GetLog.get_logger()

@@ -1,343 +1,730 @@
-2023-01-17 17:14:24,173 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="206119b1-99fc-426b-b9c6-4da77b3fe988")>
-2023-01-17 17:14:24,174 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
-2023-01-17 17:14:24,174 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
-2023-01-17 17:14:27,175 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
-2023-01-17 17:14:27,175 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
-2023-01-17 17:14:27,721 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-17 17:14:27,721 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-17 17:14:29,113 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
-2023-01-17 17:14:29,113 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
-2023-01-17 17:14:29,836 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-17 17:14:30,901 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-17 17:14:34,923 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
-2023-01-17 17:14:39,797 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
-2023-01-17 17:14:39,797 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-17 17:14:44,535 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-17 17:14:44,566 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-17 17:14:45,463 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
-2023-01-17 17:14:50,792 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-17 17:14:50,793 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-17 17:14:52,512 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-17 17:14:52,512 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-17 17:14:54,668 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="206119b1-99fc-426b-b9c6-4da77b3fe988")>
-2023-01-17 17:14:54,669 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
-2023-01-17 17:14:54,670 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
-2023-01-17 17:14:57,042 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
-2023-01-17 17:14:57,042 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
-2023-01-17 17:15:00,963 INFO [app_base.py(app_base_down_wipe_up:93)] - 正在调用从下向上滑动屏幕方法
-2023-01-17 17:15:00,963 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'wf')
-2023-01-17 17:15:03,115 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '一起去旅行')]")
-2023-01-17 17:15:05,530 INFO [base.py(base_click:43)] - 正在对：('id', 'a3x') 元素执行点击操作！
-2023-01-17 17:15:05,530 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a3x')
-2023-01-17 17:15:06,145 INFO [base.py(base_click:43)] - 正在对：('id', 'bpo') 元素执行点击操作！
-2023-01-17 17:15:06,146 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpo')
-2023-01-17 17:15:07,290 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpk')
-2023-01-17 17:15:07,908 INFO [base.py(base_input:55)] - 正在对：('id', 'bpk') 元素执行清空操作！
-2023-01-17 17:15:11,840 INFO [base.py(base_input:57)] - 正在对：('id', 'bpk') 元素执行输入：一起去旅行title 操作！
-2023-01-17 17:15:16,679 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2p')
-2023-01-17 17:15:17,294 INFO [base.py(base_input:55)] - 正在对：('id', 'b2p') 元素执行清空操作！
-2023-01-17 17:15:18,256 INFO [base.py(base_input:57)] - 正在对：('id', 'b2p') 元素执行输入：一起去旅行text 操作！
-2023-01-17 17:15:23,493 INFO [base.py(base_click:43)] - 正在对：('id', 'ay1') 元素执行点击操作！
-2023-01-17 17:15:23,494 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay1')
-2023-01-17 17:15:24,517 INFO [base.py(base_click:43)] - 正在对：('id', 'n_') 元素执行点击操作！
-2023-01-17 17:15:24,517 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'n_')
-2023-01-17 17:17:26,140 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="3683b454-a436-40cd-af37-90a27d59bfc2")>
-2023-01-17 17:17:26,141 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
-2023-01-17 17:17:26,141 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
-2023-01-17 17:17:29,142 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
-2023-01-17 17:17:29,142 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
-2023-01-17 17:17:29,790 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-17 17:17:29,791 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-17 17:17:31,231 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
-2023-01-17 17:17:31,231 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
-2023-01-17 17:17:31,942 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-17 17:17:33,002 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-17 17:17:36,963 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
-2023-01-17 17:17:41,778 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
-2023-01-17 17:17:41,778 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-17 17:17:46,621 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-17 17:17:46,652 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-17 17:17:47,572 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
-2023-01-17 17:17:52,440 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-17 17:17:52,441 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-17 17:17:54,162 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-17 17:17:54,162 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-17 17:17:56,315 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="3683b454-a436-40cd-af37-90a27d59bfc2")>
-2023-01-17 17:17:56,316 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
-2023-01-17 17:17:56,317 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
-2023-01-17 17:17:58,728 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
-2023-01-17 17:17:58,728 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
-2023-01-17 17:18:02,635 INFO [app_base.py(app_base_down_wipe_up:93)] - 正在调用从下向上滑动屏幕方法
-2023-01-17 17:18:02,635 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'wf')
-2023-01-17 17:18:04,936 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '一起去旅行')]")
-2023-01-17 17:18:07,412 INFO [base.py(base_click:43)] - 正在对：('id', 'a3x') 元素执行点击操作！
-2023-01-17 17:18:07,412 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a3x')
-2023-01-17 17:18:07,949 INFO [base.py(base_click:43)] - 正在对：('id', 'bpo') 元素执行点击操作！
-2023-01-17 17:18:07,949 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpo')
-2023-01-17 17:18:09,125 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpk')
-2023-01-17 17:18:09,731 INFO [base.py(base_input:55)] - 正在对：('id', 'bpk') 元素执行清空操作！
-2023-01-17 17:18:13,638 INFO [base.py(base_input:57)] - 正在对：('id', 'bpk') 元素执行输入：一起去旅行title 操作！
-2023-01-17 17:18:18,236 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2p')
-2023-01-17 17:18:18,779 INFO [base.py(base_input:55)] - 正在对：('id', 'b2p') 元素执行清空操作！
-2023-01-17 17:18:19,762 INFO [base.py(base_input:57)] - 正在对：('id', 'b2p') 元素执行输入：一起去旅行text 操作！
-2023-01-17 17:18:25,022 INFO [base.py(base_click:43)] - 正在对：('id', 'ay1') 元素执行点击操作！
-2023-01-17 17:18:25,022 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay1')
-2023-01-17 17:18:26,007 INFO [base.py(base_click:43)] - 正在对：('id', 'n_') 元素执行点击操作！
-2023-01-17 17:18:26,007 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'n_')
-2023-01-17 17:25:54,012 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="619dd0d3-f7d9-49e5-984a-5a4fac0196eb")>
-2023-01-17 17:25:54,012 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
-2023-01-17 17:25:54,013 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
-2023-01-17 17:25:57,013 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
-2023-01-17 17:25:57,013 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
-2023-01-17 17:25:57,533 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-17 17:25:57,534 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-17 17:25:58,947 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
-2023-01-17 17:25:58,948 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
-2023-01-17 17:25:59,666 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-17 17:26:00,622 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-17 17:26:04,760 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
-2023-01-17 17:26:09,570 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
-2023-01-17 17:26:09,570 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-17 17:26:14,316 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-17 17:26:14,335 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-17 17:26:15,257 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
-2023-01-17 17:26:20,342 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-17 17:26:20,343 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-17 17:26:22,065 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-17 17:26:22,065 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-17 17:26:24,232 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="619dd0d3-f7d9-49e5-984a-5a4fac0196eb")>
-2023-01-17 17:26:24,233 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
-2023-01-17 17:26:24,234 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
-2023-01-17 17:26:26,554 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
-2023-01-17 17:26:26,554 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
-2023-01-17 17:26:30,433 INFO [app_base.py(app_base_down_wipe_up:93)] - 正在调用从下向上滑动屏幕方法
-2023-01-17 17:26:30,433 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'wf')
-2023-01-17 17:26:32,639 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '一起去旅行')]")
-2023-01-17 17:26:35,097 INFO [base.py(base_click:43)] - 正在对：('id', 'a3x') 元素执行点击操作！
-2023-01-17 17:26:35,097 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a3x')
-2023-01-17 17:27:06,264 ERROR [test03_app_circle.py(test01_app_circle_article:35)] - Message: 
+2023-01-18 09:36:19,095 INFO [get_log.py(<module>:40)] - 测试信息级别日志
+2023-01-18 09:36:19,096 ERROR [get_log.py(<module>:41)] - 测试错误级别
+2023-01-18 09:36:31,313 INFO [get_log.py(<module>:40)] - 测试信息级别日志
+2023-01-18 09:36:31,313 ERROR [get_log.py(<module>:41)] - 测试错误级别
+2023-01-18 09:38:20,717 INFO [get_log.py(<module>:40)] - 测试信息级别日志
+2023-01-18 09:38:20,717 ERROR [get_log.py(<module>:41)] - 测试错误级别
+2023-01-18 09:42:34,488 INFO [get_log.py(<module>:40)] - 测试信息级别日志
+2023-01-18 09:42:34,488 ERROR [get_log.py(<module>:41)] - 测试错误级别
+2023-01-18 09:42:44,821 INFO [get_log.py(<module>:40)] - 测试信息级别日志
+2023-01-18 09:42:44,822 ERROR [get_log.py(<module>:41)] - 测试错误级别
+2023-01-18 09:42:51,717 INFO [get_log.py(<module>:40)] - 测试信息级别日志
+2023-01-18 09:42:51,717 ERROR [get_log.py(<module>:41)] - 测试错误级别
+2023-01-18 09:44:48,374 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="c117e3ac-4535-4a1c-85c1-51e70159610f")>
+2023-01-18 09:44:48,375 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 09:44:48,375 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 09:44:51,375 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-18 09:44:51,375 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-18 09:44:51,929 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-18 09:44:51,930 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-18 09:44:53,338 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-18 09:44:53,339 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-18 09:44:54,020 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 09:44:55,009 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-18 09:44:59,026 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
+2023-01-18 09:45:04,439 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-18 09:45:04,440 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 09:45:09,229 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-18 09:45:09,273 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-18 09:45:10,259 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
+2023-01-18 09:45:15,131 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-18 09:45:15,131 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-18 09:45:16,857 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-18 09:45:16,857 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-18 09:45:19,058 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="c117e3ac-4535-4a1c-85c1-51e70159610f")>
+2023-01-18 09:45:19,059 INFO [page_app_circle.py(page_publish_article_vote:157)] - 正在调用发布文章业务方法(投票)，圈子：{}，标题：{}，内容：{}
+2023-01-18 09:45:19,060 INFO [page_app_circle.py(page_publish_article_edit:137)] - 正在调用编辑文章业务方法，圈子：{}，标题：{}，内容：{}
+2023-01-18 09:45:19,060 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
+2023-01-18 09:45:19,060 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
+2023-01-18 09:45:21,447 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
+2023-01-18 09:45:21,447 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
+2023-01-18 09:45:26,722 INFO [app_base.py(app_base_down_wipe_up:93)] - 正在调用从下向上滑动屏幕方法
+2023-01-18 09:45:26,722 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'wf')
+2023-01-18 09:45:28,913 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '恐怖小剧场')]")
+2023-01-18 09:49:47,168 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="5c87c99e-0308-4e52-9ac8-40d82645a320")>
+2023-01-18 09:49:47,168 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 09:49:47,169 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 09:49:50,169 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-18 09:49:50,169 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-18 09:49:50,699 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-18 09:49:50,700 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-18 09:49:52,124 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-18 09:49:52,124 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-18 09:49:52,828 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 09:49:53,810 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-18 09:49:57,838 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
+2023-01-18 09:50:02,861 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-18 09:50:02,862 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 09:50:07,608 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-18 09:50:07,624 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-18 09:50:08,543 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
+2023-01-18 09:50:13,864 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-18 09:50:13,865 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-18 09:50:15,622 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-18 09:50:15,622 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-18 09:50:17,776 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="5c87c99e-0308-4e52-9ac8-40d82645a320")>
+2023-01-18 09:50:17,777 INFO [page_app_circle.py(page_publish_article_vote:157)] - 正在调用发布文章业务方法(投票)，圈子：{}，标题：{}，内容：{}
+2023-01-18 09:50:17,778 INFO [page_app_circle.py(page_publish_article_edit:137)] - 正在调用编辑文章业务方法，圈子：{}，标题：{}，内容：{}
+2023-01-18 09:50:17,778 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
+2023-01-18 09:50:17,778 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
+2023-01-18 09:50:20,179 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
+2023-01-18 09:50:20,179 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
+2023-01-18 09:50:24,090 INFO [app_base.py(app_base_down_wipe_up:93)] - 正在调用从下向上滑动屏幕方法
+2023-01-18 09:50:24,090 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aq0')
+2023-01-18 09:50:26,552 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '恐怖小剧场')]")
+2023-01-18 09:50:42,883 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '恐怖小剧场')]")
+2023-01-18 09:52:37,483 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="a2d94ed4-fc8d-4ec3-a056-8e43eab3f1ea")>
+2023-01-18 09:52:37,483 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 09:52:37,484 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 09:52:40,484 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-18 09:52:40,484 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-18 09:52:41,060 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-18 09:52:41,060 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-18 09:52:42,505 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-18 09:52:42,506 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-18 09:52:43,194 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 09:52:44,206 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-18 09:52:48,237 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
+2023-01-18 09:52:53,577 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-18 09:52:53,577 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 09:52:58,444 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-18 09:52:58,478 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-18 09:52:59,392 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
+2023-01-18 09:53:04,234 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-18 09:53:04,234 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-18 09:53:05,927 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-18 09:53:05,927 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-18 09:53:08,108 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="a2d94ed4-fc8d-4ec3-a056-8e43eab3f1ea")>
+2023-01-18 09:53:08,109 INFO [page_app_circle.py(page_publish_article_vote:157)] - 正在调用发布文章业务方法(投票)，圈子：{}，标题：{}，内容：{}
+2023-01-18 09:53:08,110 INFO [page_app_circle.py(page_publish_article_edit:137)] - 正在调用编辑文章业务方法，圈子：{}，标题：{}，内容：{}
+2023-01-18 09:53:08,110 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
+2023-01-18 09:53:08,110 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
+2023-01-18 09:53:10,612 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
+2023-01-18 09:53:10,612 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
+2023-01-18 09:53:14,488 INFO [app_base.py(app_base_down_wipe_up:93)] - 正在调用从下向上滑动屏幕方法
+2023-01-18 09:53:14,488 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'su')
+2023-01-18 09:53:16,671 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '恐怖小剧场')]")
+2023-01-18 11:07:23,669 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="d7157359-c126-440c-bd3c-9d1876c69f4e")>
+2023-01-18 11:07:23,670 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:07:23,670 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:07:26,670 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-18 11:07:26,670 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-18 11:07:27,686 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-18 11:07:27,686 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-18 11:07:29,116 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-18 11:07:29,116 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-18 11:07:29,787 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:07:30,799 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-18 11:07:34,781 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
+2023-01-18 11:07:39,909 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-18 11:07:39,909 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:07:44,741 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-18 11:07:44,775 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-18 11:07:45,662 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
+2023-01-18 11:07:50,569 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-18 11:07:50,569 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-18 11:07:52,303 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-18 11:07:52,303 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-18 11:07:54,480 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="d7157359-c126-440c-bd3c-9d1876c69f4e")>
+2023-01-18 11:07:54,481 INFO [page_app_circle.py(page_publish_article_vote:158)] - 正在调用发布文章业务方法(投票)，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:07:54,482 INFO [page_app_circle.py(page_publish_article_edit:138)] - 正在调用编辑文章业务方法，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:07:54,482 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
+2023-01-18 11:07:54,482 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
+2023-01-18 11:07:56,793 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
+2023-01-18 11:07:56,793 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
+2023-01-18 11:08:01,643 INFO [app_base.py(app_base_down_wipe_up:100)] - 正在调用从下向上滑动屏幕方法
+2023-01-18 11:08:01,643 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aq0')
+2023-01-18 11:08:04,803 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '恐怖小剧场')]")
+2023-01-18 11:08:07,287 INFO [base.py(base_click:43)] - 正在对：('id', 'a3x') 元素执行点击操作！
+2023-01-18 11:08:07,287 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a3x')
+2023-01-18 11:08:07,809 INFO [base.py(base_click:43)] - 正在对：('id', 'bpo') 元素执行点击操作！
+2023-01-18 11:08:07,809 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpo')
+2023-01-18 11:08:08,918 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpk')
+2023-01-18 11:08:09,522 INFO [base.py(base_input:55)] - 正在对：('id', 'bpk') 元素执行清空操作！
+2023-01-18 11:08:13,416 INFO [base.py(base_input:57)] - 正在对：('id', 'bpk') 元素执行输入：恐怖小剧场title 操作！
+2023-01-18 11:08:18,054 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2p')
+2023-01-18 11:08:18,593 INFO [base.py(base_input:55)] - 正在对：('id', 'b2p') 元素执行清空操作！
+2023-01-18 11:08:19,468 INFO [base.py(base_input:57)] - 正在对：('id', 'b2p') 元素执行输入：恐怖小剧场text 操作！
+2023-01-18 11:08:24,802 INFO [page_app_circle.py(page_add_vote:127)] - 正在调用文章添加投票链接方法：[1+1=?: []]
+2023-01-18 11:08:24,803 INFO [base.py(base_click:43)] - 正在对：('id', 'ayl') 元素执行点击操作！
+2023-01-18 11:08:24,803 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ayl')
+2023-01-18 11:08:25,559 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2w')
+2023-01-18 11:08:26,262 INFO [base.py(base_input:55)] - 正在对：('id', 'b2w') 元素执行清空操作！
+2023-01-18 11:08:27,215 INFO [base.py(base_input:57)] - 正在对：('id', 'b2w') 元素执行输入：1+1=? 操作！
+2023-01-18 11:08:32,418 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]")
+2023-01-18 11:08:32,941 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]") 元素执行清空操作！
+2023-01-18 11:08:33,873 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]") 元素执行输入：2 操作！
+2023-01-18 11:08:38,690 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]")
+2023-01-18 11:08:39,360 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]") 元素执行清空操作！
+2023-01-18 11:08:40,261 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]") 元素执行输入：3 操作！
+2023-01-18 11:08:44,990 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]")
+2023-01-18 11:12:08,549 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="7cf6bb0d-110c-4604-9eea-fa94cdca92e3")>
+2023-01-18 11:12:08,550 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:12:08,550 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:12:11,551 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-18 11:12:11,551 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-18 11:12:12,320 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-18 11:12:12,321 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-18 11:12:13,787 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-18 11:12:13,788 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-18 11:12:14,505 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:12:15,479 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-18 11:12:19,485 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
+2023-01-18 11:12:24,329 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-18 11:12:24,329 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:12:29,190 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-18 11:12:29,211 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-18 11:12:30,182 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
+2023-01-18 11:12:34,983 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-18 11:12:34,983 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-18 11:12:36,758 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-18 11:12:36,758 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-18 11:12:38,926 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="7cf6bb0d-110c-4604-9eea-fa94cdca92e3")>
+2023-01-18 11:12:38,926 INFO [page_app_circle.py(page_publish_article_image:151)] - 正在调用发布文章业务方法(图片)，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:12:38,926 INFO [page_app_circle.py(page_publish_article_edit:138)] - 正在调用编辑文章业务方法，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:12:38,927 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
+2023-01-18 11:12:38,927 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
+2023-01-18 11:12:41,353 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
+2023-01-18 11:12:41,353 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
+2023-01-18 11:12:46,179 INFO [app_base.py(app_base_down_wipe_up:100)] - 正在调用从下向上滑动屏幕方法
+2023-01-18 11:12:46,179 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aq0')
+2023-01-18 11:12:49,149 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '恐怖小剧场')]")
+2023-01-18 11:12:51,642 INFO [base.py(base_click:43)] - 正在对：('id', 'a3x') 元素执行点击操作！
+2023-01-18 11:12:51,642 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a3x')
+2023-01-18 11:12:52,140 INFO [base.py(base_click:43)] - 正在对：('id', 'bpo') 元素执行点击操作！
+2023-01-18 11:12:52,140 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpo')
+2023-01-18 11:12:53,296 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpk')
+2023-01-18 11:12:53,900 INFO [base.py(base_input:55)] - 正在对：('id', 'bpk') 元素执行清空操作！
+2023-01-18 11:12:57,852 INFO [base.py(base_input:57)] - 正在对：('id', 'bpk') 元素执行输入：恐怖小剧场title 操作！
+2023-01-18 11:13:02,382 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2p')
+2023-01-18 11:13:02,406 INFO [base.py(base_input:55)] - 正在对：('id', 'b2p') 元素执行清空操作！
+2023-01-18 11:13:03,899 INFO [base.py(base_input:57)] - 正在对：('id', 'b2p') 元素执行输入：恐怖小剧场text 操作！
+2023-01-18 11:13:09,148 INFO [page_app_circle.py(page_add_image:119)] - 正在调用文章添加图片链接方法
+2023-01-18 11:13:09,148 INFO [base.py(base_click:43)] - 正在对：('id', 'ay1') 元素执行点击操作！
+2023-01-18 11:13:09,148 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay1')
+2023-01-18 11:13:10,160 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@resource-id='com.android.packageinstaller:id/permission_allow_button']") 元素执行点击操作！
+2023-01-18 11:13:10,160 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.android.packageinstaller:id/permission_allow_button']")
+2023-01-18 11:13:13,796 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[318,113][351,146]']") 元素执行点击操作！
+2023-01-18 11:13:13,797 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[318,113][351,146]']")
+2023-01-18 11:17:24,684 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="251b5141-a94f-43f2-9f34-41549b6f7729")>
+2023-01-18 11:17:24,685 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:17:24,685 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:17:27,685 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-18 11:17:27,685 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-18 11:17:28,222 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-18 11:17:28,222 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-18 11:17:29,655 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-18 11:17:29,655 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-18 11:17:30,358 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:17:31,351 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-18 11:17:35,411 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
+2023-01-18 11:17:40,033 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-18 11:17:40,033 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:17:44,925 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-18 11:17:44,964 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-18 11:17:45,860 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
+2023-01-18 11:17:50,679 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-18 11:17:50,679 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-18 11:17:52,436 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-18 11:17:52,436 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-18 11:17:54,660 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="251b5141-a94f-43f2-9f34-41549b6f7729")>
+2023-01-18 11:17:54,661 INFO [page_app_circle.py(page_publish_article_vote:159)] - 正在调用发布文章业务方法(投票)，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:17:54,662 INFO [page_app_circle.py(page_publish_article_edit:138)] - 正在调用编辑文章业务方法，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:17:54,662 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
+2023-01-18 11:17:54,662 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
+2023-01-18 11:17:57,034 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
+2023-01-18 11:17:57,034 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
+2023-01-18 11:18:01,876 INFO [app_base.py(app_base_down_wipe_up:100)] - 正在调用从下向上滑动屏幕方法
+2023-01-18 11:18:01,876 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aq0')
+2023-01-18 11:18:04,902 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '环游世界')]")
+2023-01-18 11:18:11,171 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '环游世界')]")
+2023-01-18 11:18:13,672 INFO [base.py(base_ele_is_exist:120)] - 正在调用查找页面是否存在指定元素：('id', 'a3x') 方法
+2023-01-18 11:18:13,672 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a3x')
+2023-01-18 11:18:14,102 INFO [base.py(base_ele_is_exist:123)] - 找到：('id', 'a3x') 元素啦！
+2023-01-18 11:18:14,102 INFO [base.py(base_click:43)] - 正在对：('id', 'a3x') 元素执行点击操作！
+2023-01-18 11:18:14,102 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a3x')
+2023-01-18 11:18:14,242 INFO [base.py(base_click:43)] - 正在对：('id', 'bpo') 元素执行点击操作！
+2023-01-18 11:18:14,242 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpo')
+2023-01-18 11:18:15,358 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpk')
+2023-01-18 11:18:15,963 INFO [base.py(base_input:55)] - 正在对：('id', 'bpk') 元素执行清空操作！
+2023-01-18 11:18:19,855 INFO [base.py(base_input:57)] - 正在对：('id', 'bpk') 元素执行输入：环游世界title 操作！
+2023-01-18 11:18:24,467 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2p')
+2023-01-18 11:18:24,510 INFO [base.py(base_input:55)] - 正在对：('id', 'b2p') 元素执行清空操作！
+2023-01-18 11:18:25,965 INFO [base.py(base_input:57)] - 正在对：('id', 'b2p') 元素执行输入：环游世界text 操作！
+2023-01-18 11:18:31,198 INFO [page_app_circle.py(page_add_vote:127)] - 正在调用文章添加投票链接方法：[1+1=?: [2, 3, '钝角', 'C']]
+2023-01-18 11:18:31,198 INFO [base.py(base_click:43)] - 正在对：('id', 'ayl') 元素执行点击操作！
+2023-01-18 11:18:31,199 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ayl')
+2023-01-18 11:18:31,997 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2w')
+2023-01-18 11:18:32,648 INFO [base.py(base_input:55)] - 正在对：('id', 'b2w') 元素执行清空操作！
+2023-01-18 11:18:33,705 INFO [base.py(base_input:57)] - 正在对：('id', 'b2w') 元素执行输入：1+1=? 操作！
+2023-01-18 11:18:38,880 INFO [base.py(base_click:43)] - 正在对：('id', 'ay9') 元素执行点击操作！
+2023-01-18 11:18:38,880 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay9')
+2023-01-18 11:18:39,592 INFO [base.py(base_click:43)] - 正在对：('id', 'ay9') 元素执行点击操作！
+2023-01-18 11:18:39,592 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay9')
+2023-01-18 11:18:40,594 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]")
+2023-01-18 11:18:41,475 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]") 元素执行清空操作！
+2023-01-18 11:18:42,462 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]") 元素执行输入：2 操作！
+2023-01-18 11:18:46,864 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]")
+2023-01-18 11:18:47,516 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]") 元素执行清空操作！
+2023-01-18 11:18:48,450 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]") 元素执行输入：3 操作！
+2023-01-18 11:18:52,838 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]")
+2023-01-18 11:18:53,457 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]") 元素执行清空操作！
+2023-01-18 11:18:54,413 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]") 元素执行输入：钝角 操作！
+2023-01-18 11:18:58,849 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]")
+2023-01-18 11:18:59,525 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]") 元素执行清空操作！
+2023-01-18 11:19:00,498 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]") 元素执行输入：C 操作！
+2023-01-18 11:19:05,232 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '完成')]") 元素执行点击操作！
+2023-01-18 11:19:05,232 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '完成')]")
+2023-01-18 11:19:06,154 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '发布')]") 元素执行点击操作！
+2023-01-18 11:19:06,155 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '发布')]")
+2023-01-18 11:19:07,263 INFO [page_app_circle.py(page_search_article:166)] - 正在调用查询文章业务方法，圈子：{}，标题：{}
+2023-01-18 11:19:07,263 INFO [app_base.py(app_base_right_wipe_left:78)] - 正在调用从右向左滑动屏幕方法
+2023-01-18 11:19:07,264 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='1' and @resource-id='com.netease.newsreader.activity:id/b7o']")
+2023-01-18 11:19:10,566 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bm9' and contains(@text, '环游世界')]")
+2023-01-18 11:19:13,052 INFO [app_base.py(app_base_down_wipe_up:100)] - 正在调用从下向上滑动屏幕方法
+2023-01-18 11:19:13,052 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a9t')
+2023-01-18 11:19:16,283 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/jb' and contains(@text, '环游世界title')]")
+2023-01-18 11:25:17,541 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="0728728f-c756-425f-84fd-0cb7313a1b12")>
+2023-01-18 11:25:17,542 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:25:17,542 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:25:20,542 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-18 11:25:20,542 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-18 11:25:21,032 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-18 11:25:21,033 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-18 11:25:22,406 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-18 11:25:22,406 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-18 11:25:23,081 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:25:24,061 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-18 11:25:28,071 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
+2023-01-18 11:25:33,372 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-18 11:25:33,372 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:25:38,150 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-18 11:25:38,379 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-18 11:25:39,272 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
+2023-01-18 11:25:44,052 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-18 11:25:44,053 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-18 11:25:45,808 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-18 11:25:45,808 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-18 11:25:48,007 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="0728728f-c756-425f-84fd-0cb7313a1b12")>
+2023-01-18 11:25:48,009 INFO [page_app_circle.py(page_publish_article_vote:159)] - 正在调用发布文章业务方法(投票)，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:25:48,010 INFO [page_app_circle.py(page_publish_article_edit:138)] - 正在调用编辑文章业务方法，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:25:48,010 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
+2023-01-18 11:25:48,010 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
+2023-01-18 11:25:50,447 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
+2023-01-18 11:25:50,447 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
+2023-01-18 11:25:55,293 INFO [app_base.py(app_base_down_wipe_up:100)] - 正在调用从下向上滑动屏幕方法
+2023-01-18 11:25:55,293 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aq0')
+2023-01-18 11:25:58,281 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '环 游 世 界')]")
+2023-01-18 11:26:05,056 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '环 游 世 界')]")
+2023-01-18 11:26:11,671 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '环 游 世 界')]")
+2023-01-18 11:26:42,153 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="91f4b59d-ad48-45ee-b50a-494702cbb9a6")>
+2023-01-18 11:26:42,154 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:26:42,154 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:26:45,154 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-18 11:26:45,154 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-18 11:26:45,681 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-18 11:26:45,682 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-18 11:26:47,122 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-18 11:26:47,122 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-18 11:26:47,809 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:26:48,852 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-18 11:26:52,748 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
+2023-01-18 11:26:57,546 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-18 11:26:57,546 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:27:02,310 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-18 11:27:02,341 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-18 11:27:03,271 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
+2023-01-18 11:27:08,123 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-18 11:27:08,123 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-18 11:27:09,841 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-18 11:27:09,841 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-18 11:27:12,044 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="91f4b59d-ad48-45ee-b50a-494702cbb9a6")>
+2023-01-18 11:27:12,045 INFO [page_app_circle.py(page_publish_article_vote:159)] - 正在调用发布文章业务方法(投票)，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:27:12,046 INFO [page_app_circle.py(page_publish_article_edit:138)] - 正在调用编辑文章业务方法，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:27:12,046 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
+2023-01-18 11:27:12,046 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
+2023-01-18 11:27:14,413 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
+2023-01-18 11:27:14,413 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
+2023-01-18 11:27:19,210 INFO [app_base.py(app_base_down_wipe_up:100)] - 正在调用从下向上滑动屏幕方法
+2023-01-18 11:27:19,211 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aq0')
+2023-01-18 11:27:22,182 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '环游世界')]")
+2023-01-18 11:27:24,656 INFO [base.py(base_ele_is_exist:120)] - 正在调用查找页面是否存在指定元素：('id', 'a3x') 方法
+2023-01-18 11:27:24,657 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a3x')
+2023-01-18 11:27:25,980 INFO [base.py(base_ele_is_exist:126)] - 没有找到：('id', 'a3x') 元素！
+2023-01-18 11:27:25,980 INFO [base.py(base_click:43)] - 正在对：('id', 'bpo') 元素执行点击操作！
+2023-01-18 11:27:25,980 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpo')
+2023-01-18 11:27:26,106 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpk')
+2023-01-18 11:27:26,725 INFO [base.py(base_input:55)] - 正在对：('id', 'bpk') 元素执行清空操作！
+2023-01-18 11:27:30,633 INFO [base.py(base_input:57)] - 正在对：('id', 'bpk') 元素执行输入：环 游 世 界 title 操作！
+2023-01-18 11:27:35,250 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2p')
+2023-01-18 11:27:35,773 INFO [base.py(base_input:55)] - 正在对：('id', 'b2p') 元素执行清空操作！
+2023-01-18 11:27:36,658 INFO [base.py(base_input:57)] - 正在对：('id', 'b2p') 元素执行输入：环 游 世 界 text 操作！
+2023-01-18 11:27:42,048 INFO [page_app_circle.py(page_add_vote:127)] - 正在调用文章添加投票链接方法：[1+1=?: [2, 3, '钝角', 'C']]
+2023-01-18 11:27:42,048 INFO [base.py(base_click:43)] - 正在对：('id', 'ayl') 元素执行点击操作！
+2023-01-18 11:27:42,049 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ayl')
+2023-01-18 11:27:42,767 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2w')
+2023-01-18 11:27:43,432 INFO [base.py(base_input:55)] - 正在对：('id', 'b2w') 元素执行清空操作！
+2023-01-18 11:27:44,484 INFO [base.py(base_input:57)] - 正在对：('id', 'b2w') 元素执行输入：1+1=? 操作！
+2023-01-18 11:27:49,611 INFO [base.py(base_click:43)] - 正在对：('id', 'ay9') 元素执行点击操作！
+2023-01-18 11:27:49,612 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay9')
+2023-01-18 11:27:50,277 INFO [base.py(base_click:43)] - 正在对：('id', 'ay9') 元素执行点击操作！
+2023-01-18 11:27:50,277 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay9')
+2023-01-18 11:27:51,274 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]")
+2023-01-18 11:27:52,206 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]") 元素执行清空操作！
+2023-01-18 11:27:53,160 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]") 元素执行输入：2 操作！
+2023-01-18 11:27:57,587 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]")
+2023-01-18 11:27:58,228 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]") 元素执行清空操作！
+2023-01-18 11:27:59,094 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]") 元素执行输入：3 操作！
+2023-01-18 11:28:03,494 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]")
+2023-01-18 11:28:04,143 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]") 元素执行清空操作！
+2023-01-18 11:28:05,047 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]") 元素执行输入：钝角 操作！
+2023-01-18 11:28:09,480 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]")
+2023-01-18 11:28:10,138 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]") 元素执行清空操作！
+2023-01-18 11:28:11,032 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]") 元素执行输入：C 操作！
+2023-01-18 11:28:15,787 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '完成')]") 元素执行点击操作！
+2023-01-18 11:28:15,788 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '完成')]")
+2023-01-18 11:28:16,687 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '发布')]") 元素执行点击操作！
+2023-01-18 11:28:16,688 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '发布')]")
+2023-01-18 11:28:17,611 INFO [page_app_circle.py(page_search_article:166)] - 正在调用查询文章业务方法，圈子：{}，标题：{}
+2023-01-18 11:28:17,611 INFO [app_base.py(app_base_right_wipe_left:78)] - 正在调用从右向左滑动屏幕方法
+2023-01-18 11:28:17,611 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='1' and @resource-id='com.netease.newsreader.activity:id/b7o']")
+2023-01-18 11:28:20,855 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bm9' and contains(@text, '环游世界')]")
+2023-01-18 11:28:23,383 INFO [app_base.py(app_base_down_wipe_up:100)] - 正在调用从下向上滑动屏幕方法
+2023-01-18 11:28:23,383 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a9t')
+2023-01-18 11:28:26,727 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/jb' and contains(@text, '环 游 世 界 title')]")
+2023-01-18 11:28:28,930 INFO [page_app_circle.py(page_delete_article:172)] - 正在调用删除文章业务方法
+2023-01-18 11:28:28,930 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[662,36][707,108]']") 元素执行点击操作！
+2023-01-18 11:28:28,931 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[662,36][707,108]']")
+2023-01-18 11:28:30,310 INFO [base.py(base_click:43)] - 正在对：('id', 'a9e') 元素执行点击操作！
+2023-01-18 11:28:30,310 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a9e')
+2023-01-18 11:28:31,272 INFO [base.py(base_click:43)] - 正在对：('id', 'au3') 元素执行点击操作！
+2023-01-18 11:28:31,272 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'au3')
+2023-01-18 11:32:50,803 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="40aca29d-c960-4f62-9833-70f032d6a076")>
+2023-01-18 11:32:50,803 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:32:50,803 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:32:53,804 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-18 11:32:53,804 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-18 11:32:54,578 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-18 11:32:54,578 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-18 11:32:55,955 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-18 11:32:55,956 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-18 11:32:56,704 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:32:57,698 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-18 11:33:01,707 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
+2023-01-18 11:33:06,736 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-18 11:33:06,736 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:33:11,575 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-18 11:33:11,609 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-18 11:33:12,544 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
+2023-01-18 11:33:17,484 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-18 11:33:17,484 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-18 11:33:19,224 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-18 11:33:19,224 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-18 11:33:21,410 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="40aca29d-c960-4f62-9833-70f032d6a076")>
+2023-01-18 11:33:21,411 INFO [page_app_circle.py(page_publish_article_vote:159)] - 正在调用发布文章业务方法(投票)，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:33:21,412 INFO [page_app_circle.py(page_publish_article_edit:138)] - 正在调用编辑文章业务方法，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:33:21,412 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
+2023-01-18 11:33:21,412 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
+2023-01-18 11:33:23,861 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
+2023-01-18 11:33:23,861 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
+2023-01-18 11:33:28,728 INFO [app_base.py(app_base_down_wipe_up:100)] - 正在调用从下向上滑动屏幕方法
+2023-01-18 11:33:28,729 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aq0')
+2023-01-18 11:33:31,712 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '环游世界')]")
+2023-01-18 11:33:34,256 INFO [base.py(base_ele_is_exist:120)] - 正在调用查找页面是否存在指定元素：('id', 'a3x') 方法
+2023-01-18 11:33:34,256 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a3x')
+2023-01-18 11:33:35,277 INFO [base.py(base_ele_is_exist:126)] - 没有找到：('id', 'a3x') 元素！
+2023-01-18 11:33:35,277 INFO [base.py(base_click:43)] - 正在对：('id', 'bpo') 元素执行点击操作！
+2023-01-18 11:33:35,277 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpo')
+2023-01-18 11:33:35,424 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpk')
+2023-01-18 11:33:36,047 INFO [base.py(base_input:55)] - 正在对：('id', 'bpk') 元素执行清空操作！
+2023-01-18 11:33:39,938 INFO [base.py(base_input:57)] - 正在对：('id', 'bpk') 元素执行输入：环 游 世 界 title 操作！
+2023-01-18 11:33:44,385 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2p')
+2023-01-18 11:33:44,957 INFO [base.py(base_input:55)] - 正在对：('id', 'b2p') 元素执行清空操作！
+2023-01-18 11:33:45,856 INFO [base.py(base_input:57)] - 正在对：('id', 'b2p') 元素执行输入：环 游 世 界 text 操作！
+2023-01-18 11:33:51,196 INFO [page_app_circle.py(page_add_vote:127)] - 正在调用文章添加投票链接方法：[1+1=?: [2, 3, '钝角', 'C']]
+2023-01-18 11:33:51,197 INFO [base.py(base_click:43)] - 正在对：('id', 'ayl') 元素执行点击操作！
+2023-01-18 11:33:51,197 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ayl')
+2023-01-18 11:33:51,906 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2w')
+2023-01-18 11:33:52,572 INFO [base.py(base_input:55)] - 正在对：('id', 'b2w') 元素执行清空操作！
+2023-01-18 11:33:53,532 INFO [base.py(base_input:57)] - 正在对：('id', 'b2w') 元素执行输入：1+1=? 操作！
+2023-01-18 11:33:58,777 INFO [base.py(base_click:43)] - 正在对：('id', 'ay9') 元素执行点击操作！
+2023-01-18 11:33:58,778 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay9')
+2023-01-18 11:33:59,442 INFO [base.py(base_click:43)] - 正在对：('id', 'ay9') 元素执行点击操作！
+2023-01-18 11:33:59,443 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay9')
+2023-01-18 11:34:00,556 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]")
+2023-01-18 11:34:01,430 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]") 元素执行清空操作！
+2023-01-18 11:34:02,402 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]") 元素执行输入：2 操作！
+2023-01-18 11:34:06,813 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]")
+2023-01-18 11:34:07,498 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]") 元素执行清空操作！
+2023-01-18 11:34:08,362 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]") 元素执行输入：3 操作！
+2023-01-18 11:34:12,733 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]")
+2023-01-18 11:34:13,405 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]") 元素执行清空操作！
+2023-01-18 11:34:14,312 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]") 元素执行输入：钝角 操作！
+2023-01-18 11:34:18,748 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]")
+2023-01-18 11:34:19,554 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]") 元素执行清空操作！
+2023-01-18 11:34:20,492 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]") 元素执行输入：C 操作！
+2023-01-18 11:34:25,048 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '完成')]") 元素执行点击操作！
+2023-01-18 11:34:25,049 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '完成')]")
+2023-01-18 11:34:25,914 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '发布')]") 元素执行点击操作！
+2023-01-18 11:34:25,914 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '发布')]")
+2023-01-18 11:34:26,862 INFO [page_app_circle.py(page_search_article:166)] - 正在调用查询文章业务方法，圈子：{}，标题：{}
+2023-01-18 11:34:26,863 INFO [app_base.py(app_base_right_wipe_left:78)] - 正在调用从右向左滑动屏幕方法
+2023-01-18 11:34:26,863 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='1' and @resource-id='com.netease.newsreader.activity:id/b7o']")
+2023-01-18 11:34:30,214 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bm9' and contains(@text, '环游世界')]/..")
+2023-01-18 11:34:32,516 INFO [app_base.py(app_base_down_wipe_up:100)] - 正在调用从下向上滑动屏幕方法
+2023-01-18 11:34:32,516 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a9t')
+2023-01-18 11:34:36,295 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/jb' and contains(@text, '环 游 世 界 title')]")
+2023-01-18 11:34:38,691 INFO [page_app_circle.py(page_delete_article:172)] - 正在调用删除文章业务方法
+2023-01-18 11:34:38,692 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[662,36][707,108]']") 元素执行点击操作！
+2023-01-18 11:34:38,692 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[662,36][707,108]']")
+2023-01-18 11:34:40,824 INFO [base.py(base_click:43)] - 正在对：('id', 'a9e') 元素执行点击操作！
+2023-01-18 11:34:40,824 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a9e')
+2023-01-18 11:34:41,762 INFO [base.py(base_click:43)] - 正在对：('id', 'au3') 元素执行点击操作！
+2023-01-18 11:34:41,762 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'au3')
+2023-01-18 11:35:36,783 INFO [get_log.py(<module>:41)] - 测试信息级别日志
+2023-01-18 11:35:36,783 ERROR [get_log.py(<module>:42)] - 测试错误级别
+2023-01-18 11:35:47,552 INFO [get_log.py(<module>:41)] - 测试信息级别日志
+2023-01-18 11:35:47,552 ERROR [get_log.py(<module>:42)] - 测试错误级别
+2023-01-18 11:35:49,959 INFO [get_log.py(<module>:41)] - 测试信息级别日志
+2023-01-18 11:35:49,959 ERROR [get_log.py(<module>:42)] - 测试错误级别
+2023-01-18 11:35:56,307 INFO [get_log.py(<module>:41)] - 测试信息级别日志
+2023-01-18 11:35:56,307 ERROR [get_log.py(<module>:42)] - 测试错误级别
+2023-01-18 11:35:57,469 INFO [get_log.py(<module>:41)] - 测试信息级别日志
+2023-01-18 11:35:57,469 ERROR [get_log.py(<module>:42)] - 测试错误级别
+2023-01-18 11:50:53,449 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="4e91f8ae-5133-46c3-b2c3-81ba6717182e")>
+2023-01-18 11:50:53,450 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:50:53,450 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:50:56,450 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-18 11:50:56,450 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-18 11:50:57,387 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-18 11:50:57,387 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-18 11:50:58,840 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-18 11:50:58,840 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-18 11:50:59,526 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:51:00,513 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-18 11:51:04,525 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
+2023-01-18 11:51:09,435 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-18 11:51:09,435 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:51:14,319 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-18 11:51:14,341 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-18 11:51:15,234 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
+2023-01-18 11:51:20,600 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-18 11:51:20,600 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-18 11:51:22,308 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-18 11:51:22,308 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-18 11:51:24,474 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="4e91f8ae-5133-46c3-b2c3-81ba6717182e")>
+2023-01-18 11:51:24,475 INFO [page_app_circle.py(page_publish_article_vote:160)] - 正在调用发布文章业务方法(投票)，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:51:24,476 INFO [page_app_circle.py(page_publish_article_edit:139)] - 正在调用编辑文章业务方法，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:51:24,476 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
+2023-01-18 11:51:24,476 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
+2023-01-18 11:51:26,958 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
+2023-01-18 11:51:26,958 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
+2023-01-18 11:51:31,794 INFO [app_base.py(app_base_down_wipe_up:100)] - 正在调用从下向上滑动屏幕方法
+2023-01-18 11:51:31,795 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aq0')
+2023-01-18 11:51:34,794 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '环游世界')]")
+2023-01-18 11:51:37,256 INFO [base.py(base_ele_is_exist:120)] - 正在调用查找页面是否存在指定元素：('id', 'a3x') 方法
+2023-01-18 11:51:37,256 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a3x')
+2023-01-18 11:51:38,384 INFO [base.py(base_ele_is_exist:126)] - 没有找到：('id', 'a3x') 元素！
+2023-01-18 11:51:38,384 INFO [base.py(base_click:43)] - 正在对：('id', 'bpo') 元素执行点击操作！
+2023-01-18 11:51:38,384 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpo')
+2023-01-18 11:51:38,604 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpk')
+2023-01-18 11:51:39,214 INFO [base.py(base_input:55)] - 正在对：('id', 'bpk') 元素执行清空操作！
+2023-01-18 11:51:43,113 INFO [base.py(base_input:57)] - 正在对：('id', 'bpk') 元素执行输入：环 游 世 界 title 操作！
+2023-01-18 11:51:47,719 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2p')
+2023-01-18 11:51:48,243 INFO [base.py(base_input:55)] - 正在对：('id', 'b2p') 元素执行清空操作！
+2023-01-18 11:51:49,219 INFO [base.py(base_input:57)] - 正在对：('id', 'b2p') 元素执行输入：环 游 世 界 text 操作！
+2023-01-18 11:51:54,597 INFO [page_app_circle.py(page_add_vote:128)] - 正在调用文章添加投票链接方法：[1+1=?: [2, 3, '钝角', 'C']]
+2023-01-18 11:51:54,597 INFO [base.py(base_click:43)] - 正在对：('id', 'ayl') 元素执行点击操作！
+2023-01-18 11:51:54,597 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ayl')
+2023-01-18 11:51:55,358 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2w')
+2023-01-18 11:51:56,008 INFO [base.py(base_input:55)] - 正在对：('id', 'b2w') 元素执行清空操作！
+2023-01-18 11:51:57,015 INFO [base.py(base_input:57)] - 正在对：('id', 'b2w') 元素执行输入：1+1=? 操作！
+2023-01-18 11:52:02,201 INFO [base.py(base_click:43)] - 正在对：('id', 'ay9') 元素执行点击操作！
+2023-01-18 11:52:02,201 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay9')
+2023-01-18 11:52:02,875 INFO [base.py(base_click:43)] - 正在对：('id', 'ay9') 元素执行点击操作！
+2023-01-18 11:52:02,876 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay9')
+2023-01-18 11:52:03,873 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]")
+2023-01-18 11:52:04,739 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]") 元素执行清空操作！
+2023-01-18 11:52:05,817 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]") 元素执行输入：2 操作！
+2023-01-18 11:52:10,214 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]")
+2023-01-18 11:52:10,897 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]") 元素执行清空操作！
+2023-01-18 11:52:11,778 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]") 元素执行输入：3 操作！
+2023-01-18 11:52:16,190 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]")
+2023-01-18 11:52:16,822 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]") 元素执行清空操作！
+2023-01-18 11:52:17,725 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]") 元素执行输入：钝角 操作！
+2023-01-18 11:52:22,114 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]")
+2023-01-18 11:52:22,839 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]") 元素执行清空操作！
+2023-01-18 11:52:23,806 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]") 元素执行输入：C 操作！
+2023-01-18 11:52:28,573 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '完成')]") 元素执行点击操作！
+2023-01-18 11:52:28,573 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '完成')]")
+2023-01-18 11:52:29,432 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '发布')]") 元素执行点击操作！
+2023-01-18 11:52:29,432 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '发布')]")
+2023-01-18 11:52:30,465 INFO [page_app_circle.py(page_search_article:167)] - 正在调用查询文章业务方法，圈子：{}，标题：{}
+2023-01-18 11:52:30,465 INFO [app_base.py(app_base_right_wipe_left:78)] - 正在调用从右向左滑动屏幕方法
+2023-01-18 11:52:30,465 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='1' and @resource-id='com.netease.newsreader.activity:id/b7o']")
+2023-01-18 11:52:33,948 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bm9' and contains(@text, '环游世界')]/..")
+2023-01-18 11:52:36,266 INFO [app_base.py(app_base_wipe_refresh:143)] - 正在调用下拉刷新方法
+2023-01-18 11:52:36,276 ERROR [test03_app_circle.py(test01_app_circle_article:37)] - Message: An unknown server-side error occurred while processing the command. Original error: Coordinate [x=360.0, y=1280.0] is outside of element rect: [0,0][720,1280]
 
-2023-01-17 17:27:06,264 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
-2023-01-17 17:27:07,300 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
-2023-01-17 17:27:30,677 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="c982fb3b-1986-43b0-996f-ccca92170423")>
-2023-01-17 17:27:30,677 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
-2023-01-17 17:27:30,678 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
-2023-01-17 17:27:33,678 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
-2023-01-17 17:27:33,678 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
-2023-01-17 17:28:14,888 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="10c16726-6d79-4e8f-9477-ca294fd3f60c")>
-2023-01-17 17:28:14,889 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
-2023-01-17 17:28:14,889 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
-2023-01-17 17:28:17,890 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
-2023-01-17 17:28:17,890 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
-2023-01-17 17:28:18,402 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-17 17:28:18,403 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-17 17:28:19,812 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
-2023-01-17 17:28:19,812 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
-2023-01-17 17:28:20,513 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-17 17:28:21,500 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-17 17:28:25,529 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
-2023-01-17 17:28:30,771 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
-2023-01-17 17:28:30,771 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-17 17:28:35,549 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-17 17:28:35,565 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-17 17:28:36,761 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
-2023-01-17 17:28:42,055 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-17 17:28:42,055 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-17 17:28:43,814 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-17 17:28:43,814 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-17 17:28:46,138 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="10c16726-6d79-4e8f-9477-ca294fd3f60c")>
-2023-01-17 17:28:46,139 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
-2023-01-17 17:28:46,140 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
-2023-01-17 17:28:48,512 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
-2023-01-17 17:28:48,512 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
-2023-01-17 17:28:52,379 INFO [app_base.py(app_base_down_wipe_up:93)] - 正在调用从下向上滑动屏幕方法
-2023-01-17 17:28:52,379 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'wf')
-2023-01-17 17:28:54,868 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '一起去旅行')]")
-2023-01-17 17:28:57,347 INFO [base.py(base_click:43)] - 正在对：('id', 'a3x') 元素执行点击操作！
-2023-01-17 17:28:57,347 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a3x')
-2023-01-17 17:28:57,897 INFO [base.py(base_click:43)] - 正在对：('id', 'bpo') 元素执行点击操作！
-2023-01-17 17:28:57,897 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpo')
-2023-01-17 17:28:59,110 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpk')
-2023-01-17 17:28:59,707 INFO [base.py(base_input:55)] - 正在对：('id', 'bpk') 元素执行清空操作！
-2023-01-17 17:29:03,675 INFO [base.py(base_input:57)] - 正在对：('id', 'bpk') 元素执行输入：一起去旅行title 操作！
-2023-01-17 17:29:08,159 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2p')
-2023-01-17 17:29:08,199 INFO [base.py(base_input:55)] - 正在对：('id', 'b2p') 元素执行清空操作！
-2023-01-17 17:29:09,661 INFO [base.py(base_input:57)] - 正在对：('id', 'b2p') 元素执行输入：一起去旅行text 操作！
-2023-01-17 17:29:14,955 INFO [base.py(base_click:43)] - 正在对：('id', 'ay1') 元素执行点击操作！
-2023-01-17 17:29:14,956 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay1')
-2023-01-17 17:29:15,918 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@resource-id='com.android.packageinstaller:id/permission_allow_button']") 元素执行点击操作！
-2023-01-17 17:29:15,919 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.android.packageinstaller:id/permission_allow_button']")
-2023-01-17 17:29:19,638 INFO [base.py(base_click:43)] - 正在对：('id', 'n_') 元素执行点击操作！
-2023-01-17 17:29:19,638 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'n_')
-2023-01-17 17:48:17,977 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="16cfb824-b321-4e25-963f-20f50dc21197")>
-2023-01-17 17:48:17,978 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
-2023-01-17 17:48:17,978 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
-2023-01-17 17:48:20,978 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
-2023-01-17 17:48:20,978 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
-2023-01-17 17:48:21,454 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-17 17:48:21,454 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-17 17:48:22,863 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
-2023-01-17 17:48:22,863 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
-2023-01-17 17:48:23,532 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-17 17:48:24,563 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-17 17:48:28,541 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
-2023-01-17 17:48:33,993 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
-2023-01-17 17:48:33,993 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-17 17:48:38,749 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-17 17:48:38,802 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-17 17:48:39,712 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
-2023-01-17 17:48:44,508 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-17 17:48:44,509 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-17 17:48:46,252 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-17 17:48:46,252 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-17 17:48:48,433 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="16cfb824-b321-4e25-963f-20f50dc21197")>
-2023-01-17 17:48:48,435 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
-2023-01-17 17:48:48,435 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
-2023-01-17 17:48:50,817 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
-2023-01-17 17:48:50,817 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
-2023-01-17 17:48:54,697 INFO [app_base.py(app_base_down_wipe_up:93)] - 正在调用从下向上滑动屏幕方法
-2023-01-17 17:48:54,697 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'wf')
-2023-01-17 17:48:56,900 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '一起去旅行')]")
-2023-01-17 17:48:59,369 INFO [base.py(base_click:43)] - 正在对：('id', 'a3x') 元素执行点击操作！
-2023-01-17 17:48:59,370 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a3x')
-2023-01-17 17:48:59,913 INFO [base.py(base_click:43)] - 正在对：('id', 'bpo') 元素执行点击操作！
-2023-01-17 17:48:59,914 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpo')
-2023-01-17 17:49:01,059 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpk')
-2023-01-17 17:49:01,663 INFO [base.py(base_input:55)] - 正在对：('id', 'bpk') 元素执行清空操作！
-2023-01-17 17:49:05,614 INFO [base.py(base_input:57)] - 正在对：('id', 'bpk') 元素执行输入：一起去旅行title 操作！
-2023-01-17 17:49:10,150 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2p')
-2023-01-17 17:49:10,708 INFO [base.py(base_input:55)] - 正在对：('id', 'b2p') 元素执行清空操作！
-2023-01-17 17:49:11,685 INFO [base.py(base_input:57)] - 正在对：('id', 'b2p') 元素执行输入：一起去旅行text 操作！
-2023-01-17 17:49:16,197 INFO [base.py(base_click:43)] - 正在对：('id', 'ay1') 元素执行点击操作！
-2023-01-17 17:49:16,197 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay1')
-2023-01-17 17:49:17,195 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@resource-id='com.android.packageinstaller:id/permission_allow_button']") 元素执行点击操作！
-2023-01-17 17:49:17,195 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.android.packageinstaller:id/permission_allow_button']")
-2023-01-17 17:49:18,512 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[318,113][351,146]']") 元素执行点击操作！
-2023-01-17 17:49:18,513 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[318,113][351,146]']")
-2023-01-17 17:49:19,195 INFO [base.py(base_click:43)] - 正在对：('id', 'ka') 元素执行点击操作！
-2023-01-17 17:49:19,195 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ka')
-2023-01-17 17:49:20,080 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '发布')]") 元素执行点击操作！
-2023-01-17 17:49:20,080 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '发布')]")
-2023-01-17 17:49:20,938 INFO [app_base.py(app_base_right_wipe_left:71)] - 正在调用从右向左滑动屏幕方法
-2023-01-17 17:49:20,939 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='1' and @resource-id='com.netease.newsreader.activity:id/b7o']")
-2023-01-17 17:49:23,904 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bm9' and contains(@text, '一起去旅行')]")
-2023-01-17 17:49:26,270 INFO [app_base.py(app_base_down_wipe_up:93)] - 正在调用从下向上滑动屏幕方法
-2023-01-17 17:49:26,271 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a9t')
-2023-01-17 17:49:30,111 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/jb' and contains(@text, '一起去旅行title')]")
-2023-01-17 17:52:49,754 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="bb965652-b5e0-4139-aff2-13b8dbdb77ee")>
-2023-01-17 17:52:49,755 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
-2023-01-17 17:52:49,755 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
-2023-01-17 17:52:52,756 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
-2023-01-17 17:52:52,756 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
-2023-01-17 17:52:53,812 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-17 17:52:53,812 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-17 17:52:55,249 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
-2023-01-17 17:52:55,249 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
-2023-01-17 17:52:55,938 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-17 17:52:56,924 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-17 17:53:00,911 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
-2023-01-17 17:53:05,924 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
-2023-01-17 17:53:05,924 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-17 17:53:10,649 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-17 17:53:10,683 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-17 17:53:11,564 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
-2023-01-17 17:53:16,355 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-17 17:53:16,355 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-17 17:53:18,116 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-17 17:53:18,116 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-17 17:53:20,300 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="bb965652-b5e0-4139-aff2-13b8dbdb77ee")>
-2023-01-17 17:53:20,301 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
-2023-01-17 17:53:20,302 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
-2023-01-17 17:53:22,660 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
-2023-01-17 17:53:22,660 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
-2023-01-17 17:53:26,563 INFO [app_base.py(app_base_down_wipe_up:93)] - 正在调用从下向上滑动屏幕方法
-2023-01-17 17:53:26,563 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'wf')
-2023-01-17 17:53:29,012 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '一起去旅行')]")
-2023-01-17 17:53:31,464 INFO [base.py(base_click:43)] - 正在对：('id', 'a3x') 元素执行点击操作！
-2023-01-17 17:53:31,465 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a3x')
-2023-01-17 17:53:32,014 INFO [base.py(base_click:43)] - 正在对：('id', 'bpo') 元素执行点击操作！
-2023-01-17 17:53:32,014 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpo')
-2023-01-17 17:53:33,208 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpk')
-2023-01-17 17:53:33,809 INFO [base.py(base_input:55)] - 正在对：('id', 'bpk') 元素执行清空操作！
-2023-01-17 17:53:37,730 INFO [base.py(base_input:57)] - 正在对：('id', 'bpk') 元素执行输入：一起去旅行title 操作！
-2023-01-17 17:53:42,321 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2p')
-2023-01-17 17:53:42,366 INFO [base.py(base_input:55)] - 正在对：('id', 'b2p') 元素执行清空操作！
-2023-01-17 17:53:43,817 INFO [base.py(base_input:57)] - 正在对：('id', 'b2p') 元素执行输入：一起去旅行text 操作！
-2023-01-17 17:53:49,134 INFO [base.py(base_click:43)] - 正在对：('id', 'ayl') 元素执行点击操作！
-2023-01-17 17:53:49,134 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ayl')
-2023-01-17 17:53:49,904 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2w')
-2023-01-17 17:53:50,592 INFO [base.py(base_input:55)] - 正在对：('id', 'b2w') 元素执行清空操作！
-2023-01-17 17:53:51,598 INFO [base.py(base_input:57)] - 正在对：('id', 'b2w') 元素执行输入：1+1=? 操作！
-2023-01-17 17:53:56,785 INFO [base.py(base_click:43)] - 正在对：('id', 'ay9') 元素执行点击操作！
-2023-01-17 17:53:56,786 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay9')
-2023-01-17 17:53:57,450 ERROR [test03_app_circle.py(test01_app_circle_article:36)] - Base.base_input() missing 1 required positional argument: 'value'
-2023-01-17 17:53:57,450 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
-2023-01-17 17:53:58,164 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
-2023-01-17 17:56:22,443 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="da1dff91-8451-41b6-b7b1-b133ab694bd0")>
-2023-01-17 17:56:22,444 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
-2023-01-17 17:56:22,444 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
-2023-01-17 17:56:25,444 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
-2023-01-17 17:56:25,444 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
-2023-01-17 17:56:26,022 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
-2023-01-17 17:56:26,023 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
-2023-01-17 17:56:27,451 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
-2023-01-17 17:56:27,452 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
-2023-01-17 17:56:28,121 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-17 17:56:29,144 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
-2023-01-17 17:56:33,153 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
-2023-01-17 17:56:38,064 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
-2023-01-17 17:56:38,064 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
-2023-01-17 17:56:42,847 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
-2023-01-17 17:56:42,904 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
-2023-01-17 17:56:43,796 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
-2023-01-17 17:56:48,970 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
-2023-01-17 17:56:48,971 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
-2023-01-17 17:56:50,666 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
-2023-01-17 17:56:50,666 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
-2023-01-17 17:56:52,838 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="da1dff91-8451-41b6-b7b1-b133ab694bd0")>
-2023-01-17 17:56:52,839 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
-2023-01-17 17:56:52,840 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
-2023-01-17 17:56:55,174 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
-2023-01-17 17:56:55,174 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
-2023-01-17 17:56:59,046 INFO [app_base.py(app_base_down_wipe_up:93)] - 正在调用从下向上滑动屏幕方法
-2023-01-17 17:56:59,046 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'wf')
-2023-01-17 17:57:01,188 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '一起去旅行')]")
-2023-01-17 17:57:03,646 INFO [base.py(base_click:43)] - 正在对：('id', 'a3x') 元素执行点击操作！
-2023-01-17 17:57:03,646 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a3x')
-2023-01-17 17:57:04,230 INFO [base.py(base_click:43)] - 正在对：('id', 'bpo') 元素执行点击操作！
-2023-01-17 17:57:04,231 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpo')
-2023-01-17 17:57:05,372 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpk')
-2023-01-17 17:57:05,975 INFO [base.py(base_input:55)] - 正在对：('id', 'bpk') 元素执行清空操作！
-2023-01-17 17:57:09,940 INFO [base.py(base_input:57)] - 正在对：('id', 'bpk') 元素执行输入：一起去旅行title 操作！
-2023-01-17 17:57:14,438 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2p')
-2023-01-17 17:57:14,486 INFO [base.py(base_input:55)] - 正在对：('id', 'b2p') 元素执行清空操作！
-2023-01-17 17:57:16,033 INFO [base.py(base_input:57)] - 正在对：('id', 'b2p') 元素执行输入：一起去旅行text 操作！
-2023-01-17 17:57:21,527 INFO [base.py(base_click:43)] - 正在对：('id', 'ayl') 元素执行点击操作！
-2023-01-17 17:57:21,528 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ayl')
-2023-01-17 17:57:22,320 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2w')
-2023-01-17 17:57:22,976 INFO [base.py(base_input:55)] - 正在对：('id', 'b2w') 元素执行清空操作！
-2023-01-17 17:57:24,051 INFO [base.py(base_input:57)] - 正在对：('id', 'b2w') 元素执行输入：1+1=? 操作！
-2023-01-17 17:57:29,199 INFO [base.py(base_click:43)] - 正在对：('id', 'ay9') 元素执行点击操作！
-2023-01-17 17:57:29,200 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay9')
-2023-01-17 17:57:29,866 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]")
-2023-01-17 17:57:30,729 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]") 元素执行清空操作！
-2023-01-17 17:57:31,815 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]") 元素执行输入：2 操作！
-2023-01-17 17:57:36,714 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]")
-2023-01-17 17:57:37,351 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]") 元素执行清空操作！
-2023-01-17 17:57:38,198 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]") 元素执行输入：3 操作！
-2023-01-17 17:57:42,600 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]")
-2023-01-17 17:57:43,290 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]") 元素执行清空操作！
-2023-01-17 17:57:44,259 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]") 元素执行输入：钝角 操作！
-2023-01-17 17:57:49,005 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]")
-2023-01-17 17:57:57,830 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]") 元素执行清空操作！
-2023-01-17 17:57:58,843 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]") 元素执行输入：C 操作！
-2023-01-17 17:58:03,755 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '完成')]") 元素执行点击操作！
-2023-01-17 17:58:03,756 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '完成')]")
-2023-01-17 17:58:04,667 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '发布')]") 元素执行点击操作！
-2023-01-17 17:58:04,667 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '发布')]")
-2023-01-17 17:58:05,758 INFO [app_base.py(app_base_right_wipe_left:71)] - 正在调用从右向左滑动屏幕方法
-2023-01-17 17:58:05,758 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='1' and @resource-id='com.netease.newsreader.activity:id/b7o']")
-2023-01-17 17:58:09,605 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bm9' and contains(@text, '一起去旅行')]")
-2023-01-17 17:58:12,188 INFO [app_base.py(app_base_down_wipe_up:93)] - 正在调用从下向上滑动屏幕方法
-2023-01-17 17:58:12,188 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a9t')
-2023-01-17 17:58:15,492 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/jb' and contains(@text, '一起去旅行title')]")
+2023-01-18 11:52:36,276 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
+2023-01-18 11:52:37,263 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
+2023-01-18 11:53:26,609 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="33dfa360-1058-45e4-b53f-04dcf1492214")>
+2023-01-18 11:53:26,609 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:53:26,610 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:53:29,610 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-18 11:53:29,610 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-18 11:53:30,340 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-18 11:53:30,340 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-18 11:53:31,759 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-18 11:53:31,759 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-18 11:53:32,443 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:53:33,436 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-18 11:53:37,382 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
+2023-01-18 11:53:42,720 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-18 11:53:42,721 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:53:47,458 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-18 11:53:47,475 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-18 11:53:48,360 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
+2023-01-18 11:53:53,295 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-18 11:53:53,296 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-18 11:53:55,038 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-18 11:53:55,038 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-18 11:53:57,210 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="33dfa360-1058-45e4-b53f-04dcf1492214")>
+2023-01-18 11:53:57,211 INFO [page_app_circle.py(page_publish_article_vote:160)] - 正在调用发布文章业务方法(投票)，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:53:57,212 INFO [page_app_circle.py(page_publish_article_edit:139)] - 正在调用编辑文章业务方法，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:53:57,212 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
+2023-01-18 11:53:57,212 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
+2023-01-18 11:53:59,539 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
+2023-01-18 11:53:59,539 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
+2023-01-18 11:54:04,395 INFO [app_base.py(app_base_down_wipe_up:100)] - 正在调用从下向上滑动屏幕方法
+2023-01-18 11:54:04,396 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aq0')
+2023-01-18 11:54:07,412 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '环游世界')]")
+2023-01-18 11:54:09,875 INFO [base.py(base_ele_is_exist:120)] - 正在调用查找页面是否存在指定元素：('id', 'a3x') 方法
+2023-01-18 11:54:09,876 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a3x')
+2023-01-18 11:54:10,879 INFO [base.py(base_ele_is_exist:126)] - 没有找到：('id', 'a3x') 元素！
+2023-01-18 11:54:10,879 INFO [base.py(base_click:43)] - 正在对：('id', 'bpo') 元素执行点击操作！
+2023-01-18 11:54:10,879 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpo')
+2023-01-18 11:54:11,000 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpk')
+2023-01-18 11:54:11,704 INFO [base.py(base_input:55)] - 正在对：('id', 'bpk') 元素执行清空操作！
+2023-01-18 11:54:15,601 INFO [base.py(base_input:57)] - 正在对：('id', 'bpk') 元素执行输入：环 游 世 界 title 操作！
+2023-01-18 11:54:20,115 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2p')
+2023-01-18 11:54:20,673 INFO [base.py(base_input:55)] - 正在对：('id', 'b2p') 元素执行清空操作！
+2023-01-18 11:54:21,623 INFO [base.py(base_input:57)] - 正在对：('id', 'b2p') 元素执行输入：环 游 世 界 text 操作！
+2023-01-18 11:54:26,930 INFO [page_app_circle.py(page_add_vote:128)] - 正在调用文章添加投票链接方法：[1+1=?: [2, 3, '钝角', 'C']]
+2023-01-18 11:54:26,930 INFO [base.py(base_click:43)] - 正在对：('id', 'ayl') 元素执行点击操作！
+2023-01-18 11:54:26,930 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ayl')
+2023-01-18 11:54:27,718 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2w')
+2023-01-18 11:54:28,369 INFO [base.py(base_input:55)] - 正在对：('id', 'b2w') 元素执行清空操作！
+2023-01-18 11:54:29,446 INFO [base.py(base_input:57)] - 正在对：('id', 'b2w') 元素执行输入：1+1=? 操作！
+2023-01-18 11:54:34,647 INFO [base.py(base_click:43)] - 正在对：('id', 'ay9') 元素执行点击操作！
+2023-01-18 11:54:34,648 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay9')
+2023-01-18 11:54:35,357 INFO [base.py(base_click:43)] - 正在对：('id', 'ay9') 元素执行点击操作！
+2023-01-18 11:54:35,358 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay9')
+2023-01-18 11:54:36,406 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]")
+2023-01-18 11:54:37,307 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]") 元素执行清空操作！
+2023-01-18 11:54:38,451 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]") 元素执行输入：2 操作！
+2023-01-18 11:54:42,839 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]")
+2023-01-18 11:54:43,463 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]") 元素执行清空操作！
+2023-01-18 11:54:44,347 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]") 元素执行输入：3 操作！
+2023-01-18 11:54:48,735 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]")
+2023-01-18 11:54:49,358 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]") 元素执行清空操作！
+2023-01-18 11:54:50,304 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]") 元素执行输入：钝角 操作！
+2023-01-18 11:54:54,751 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]")
+2023-01-18 11:54:55,413 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]") 元素执行清空操作！
+2023-01-18 11:54:56,313 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]") 元素执行输入：C 操作！
+2023-01-18 11:55:01,056 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '完成')]") 元素执行点击操作！
+2023-01-18 11:55:01,056 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '完成')]")
+2023-01-18 11:55:01,925 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '发布')]") 元素执行点击操作！
+2023-01-18 11:55:01,925 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '发布')]")
+2023-01-18 11:55:03,782 INFO [page_app_circle.py(page_search_article:167)] - 正在调用查询文章业务方法，圈子：{}，标题：{}
+2023-01-18 11:55:03,782 INFO [app_base.py(app_base_right_wipe_left:78)] - 正在调用从右向左滑动屏幕方法
+2023-01-18 11:55:03,783 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='1' and @resource-id='com.netease.newsreader.activity:id/b7o']")
+2023-01-18 11:55:07,156 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bm9' and contains(@text, '环游世界')]/..")
+2023-01-18 11:55:09,442 INFO [app_base.py(app_base_wipe_refresh:143)] - 正在调用下拉刷新方法
+2023-01-18 11:55:09,453 ERROR [test03_app_circle.py(test01_app_circle_article:37)] - Message: An unknown server-side error occurred while processing the command. Original error: The swipe did not complete successfully
+
+2023-01-18 11:55:09,453 ERROR [base.py(base_screenshot:182)] - 断言出错，正在执行截图操作！
+2023-01-18 11:55:10,609 ERROR [base.py(base_screenshot:185)] - 断言出错，正在将错误截图写入allure报告！
+2023-01-18 11:57:20,271 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="5dca83c8-1aea-4c72-a0e5-5e50c95d2202")>
+2023-01-18 11:57:20,272 INFO [page_app_login.py(page_app_login_success:86)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:57:20,272 INFO [page_app_login.py(page_app_login:63)] - 正在调用app登录业务方法，邮箱：xxx，密码：xxx
+2023-01-18 11:57:23,272 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']") 元素执行点击操作！
+2023-01-18 11:57:23,272 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='3' and @bounds='[540,1211][720,1280]']")
+2023-01-18 11:57:23,776 INFO [base.py(base_click:43)] - 正在对：('id', 'as0') 元素执行点击操作！
+2023-01-18 11:57:23,776 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'as0')
+2023-01-18 11:57:25,255 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']") 元素执行点击操作！
+2023-01-18 11:57:25,255 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='0' and @bounds='[478,1177][547,1246]']")
+2023-01-18 11:57:25,930 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:57:26,961 INFO [base.py(base_input:55)] - 正在对：('id', 'ajy') 元素执行清空操作！
+2023-01-18 11:57:31,034 INFO [base.py(base_input:57)] - 正在对：('id', 'ajy') 元素执行输入：xxx 操作！
+2023-01-18 11:57:36,392 INFO [base.py(base_click:43)] - 正在对：('id', 'ajy') 元素执行点击操作！
+2023-01-18 11:57:36,392 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ajy')
+2023-01-18 11:57:41,210 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aka')
+2023-01-18 11:57:41,228 INFO [base.py(base_input:55)] - 正在对：('id', 'aka') 元素执行清空操作！
+2023-01-18 11:57:42,116 INFO [base.py(base_input:57)] - 正在对：('id', 'aka') 元素执行输入：xxx 操作！
+2023-01-18 11:57:47,006 INFO [base.py(base_click:43)] - 正在对：('id', 'bil') 元素执行点击操作！
+2023-01-18 11:57:47,007 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bil')
+2023-01-18 11:57:48,722 INFO [base.py(base_click:43)] - 正在对：('id', 'y1') 元素执行点击操作！
+2023-01-18 11:57:48,722 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'y1')
+2023-01-18 11:57:50,893 INFO [base.py(__init__:21)] - 正在初始化 driver: <appium.webdriver.webdriver.WebDriver (session="5dca83c8-1aea-4c72-a0e5-5e50c95d2202")>
+2023-01-18 11:57:50,894 INFO [page_app_circle.py(page_publish_article_vote:160)] - 正在调用发布文章业务方法(投票)，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:57:50,895 INFO [page_app_circle.py(page_publish_article_edit:139)] - 正在调用编辑文章业务方法，圈子：{}，标题：{}，内容：{}
+2023-01-18 11:57:50,895 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']") 元素执行点击操作！
+2023-01-18 11:57:50,895 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[360,1211][540,1280]']")
+2023-01-18 11:57:53,193 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']") 元素执行点击操作！
+2023-01-18 11:57:53,193 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='2' and @bounds='[631,1120][696,1185]']")
+2023-01-18 11:57:58,010 INFO [app_base.py(app_base_down_wipe_up:100)] - 正在调用从下向上滑动屏幕方法
+2023-01-18 11:57:58,010 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'aq0')
+2023-01-18 11:58:01,001 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/aq1' and contains(@text, '环游世界')]")
+2023-01-18 11:58:03,473 INFO [base.py(base_ele_is_exist:120)] - 正在调用查找页面是否存在指定元素：('id', 'a3x') 方法
+2023-01-18 11:58:03,473 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a3x')
+2023-01-18 11:58:04,775 INFO [base.py(base_ele_is_exist:126)] - 没有找到：('id', 'a3x') 元素！
+2023-01-18 11:58:04,775 INFO [base.py(base_click:43)] - 正在对：('id', 'bpo') 元素执行点击操作！
+2023-01-18 11:58:04,775 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpo')
+2023-01-18 11:58:04,930 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'bpk')
+2023-01-18 11:58:05,548 INFO [base.py(base_input:55)] - 正在对：('id', 'bpk') 元素执行清空操作！
+2023-01-18 11:58:09,467 INFO [base.py(base_input:57)] - 正在对：('id', 'bpk') 元素执行输入：环 游 世 界 title 操作！
+2023-01-18 11:58:14,033 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2p')
+2023-01-18 11:58:14,584 INFO [base.py(base_input:55)] - 正在对：('id', 'b2p') 元素执行清空操作！
+2023-01-18 11:58:15,580 INFO [base.py(base_input:57)] - 正在对：('id', 'b2p') 元素执行输入：环 游 世 界 text 操作！
+2023-01-18 11:58:20,131 INFO [page_app_circle.py(page_add_vote:128)] - 正在调用文章添加投票链接方法：[1+1=?: [2, 3, '钝角', 'C']]
+2023-01-18 11:58:20,132 INFO [base.py(base_click:43)] - 正在对：('id', 'ayl') 元素执行点击操作！
+2023-01-18 11:58:20,132 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ayl')
+2023-01-18 11:58:20,936 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'b2w')
+2023-01-18 11:58:21,738 INFO [base.py(base_input:55)] - 正在对：('id', 'b2w') 元素执行清空操作！
+2023-01-18 11:58:22,773 INFO [base.py(base_input:57)] - 正在对：('id', 'b2w') 元素执行输入：1+1=? 操作！
+2023-01-18 11:58:27,896 INFO [base.py(base_click:43)] - 正在对：('id', 'ay9') 元素执行点击操作！
+2023-01-18 11:58:27,896 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay9')
+2023-01-18 11:58:28,579 INFO [base.py(base_click:43)] - 正在对：('id', 'ay9') 元素执行点击操作！
+2023-01-18 11:58:28,579 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'ay9')
+2023-01-18 11:58:29,589 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]")
+2023-01-18 11:58:30,511 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]") 元素执行清空操作！
+2023-01-18 11:58:31,513 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 1')]") 元素执行输入：2 操作！
+2023-01-18 11:58:36,424 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]")
+2023-01-18 11:58:37,032 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]") 元素执行清空操作！
+2023-01-18 11:58:38,013 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 2')]") 元素执行输入：3 操作！
+2023-01-18 11:58:42,421 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]")
+2023-01-18 11:58:43,054 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]") 元素执行清空操作！
+2023-01-18 11:58:44,015 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 3')]") 元素执行输入：钝角 操作！
+2023-01-18 11:58:48,556 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]")
+2023-01-18 11:58:49,234 INFO [base.py(base_input:55)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]") 元素执行清空操作！
+2023-01-18 11:58:50,190 INFO [base.py(base_input:57)] - 正在对：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/ayp' and contains(@text, '选项 4')]") 元素执行输入：C 操作！
+2023-01-18 11:58:54,867 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '完成')]") 元素执行点击操作！
+2023-01-18 11:58:54,867 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '完成')]")
+2023-01-18 11:58:55,810 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '发布')]") 元素执行点击操作！
+2023-01-18 11:58:55,810 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[645,36][707,108]' and contains(@text, '发布')]")
+2023-01-18 11:58:57,025 INFO [page_app_circle.py(page_search_article:167)] - 正在调用查询文章业务方法，圈子：{}，标题：{}
+2023-01-18 11:58:57,025 INFO [app_base.py(app_base_right_wipe_left:78)] - 正在调用从右向左滑动屏幕方法
+2023-01-18 11:58:57,025 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@index='1' and @resource-id='com.netease.newsreader.activity:id/b7o']")
+2023-01-18 11:59:00,324 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/bm9' and contains(@text, '环游世界')]/..")
+2023-01-18 11:59:03,671 INFO [app_base.py(app_base_wipe_refresh:143)] - 正在调用下拉刷新方法
+2023-01-18 11:59:04,091 INFO [app_base.py(app_base_down_wipe_up:100)] - 正在调用从下向上滑动屏幕方法
+2023-01-18 11:59:04,091 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a9t')
+2023-01-18 11:59:08,104 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@resource-id='com.netease.newsreader.activity:id/jb' and contains(@text, '环 游 世 界 title')]")
+2023-01-18 11:59:10,421 INFO [page_app_circle.py(page_delete_article:174)] - 正在调用删除文章业务方法
+2023-01-18 11:59:10,422 INFO [base.py(base_click:43)] - 正在对：('xpath', "//*[@bounds='[662,36][707,108]']") 元素执行点击操作！
+2023-01-18 11:59:10,422 INFO [base.py(base_find_element:33)] - 正在查找元素：('xpath', "//*[@bounds='[662,36][707,108]']")
+2023-01-18 11:59:11,813 INFO [base.py(base_click:43)] - 正在对：('id', 'a9e') 元素执行点击操作！
+2023-01-18 11:59:11,813 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'a9e')
+2023-01-18 11:59:12,791 INFO [base.py(base_click:43)] - 正在对：('id', 'au3') 元素执行点击操作！
+2023-01-18 11:59:12,791 INFO [base.py(base_find_element:33)] - 正在查找元素：('id', 'au3')

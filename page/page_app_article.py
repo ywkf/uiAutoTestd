@@ -48,7 +48,7 @@ class PageAppArticle(AppBase):
     def page_click_article(self, click_text):
         loc = page.get_article_loc(click_text)
         # self.app_base_wipe_up(loc)
-        self.app_base_wipe_refresh(loc)
+        self.app_base_refresh_click(loc)
 
     # 组合查询文章方法
     def page_app_search_article(self, channel, title):

@@ -20,6 +20,7 @@ class PageAppCircle(AppBase):
     # 选择圈子点击
     def page_select_circle_click(self, circle):
         loc = page.get_circle_loc(circle)
+        self.app_base_wipe_to_up()
         self.app_base_down_wipe_up(page.app_circle_area, loc)
 
     # 点击加入圈子并发布按钮
@@ -95,6 +96,7 @@ class PageAppCircle(AppBase):
     # 查找文章
     def page_click_article(self, title):
         loc = page.get_circle_article_loc(title)
+        self.app_base_wipe_refresh()
         self.app_base_down_wipe_up(page.app_circle_article_area, loc)
 
     # 点击右上角选项按钮
@@ -115,6 +117,7 @@ class PageAppCircle(AppBase):
 
     # 组合添加图片方法
     def page_add_image(self):
+        log.info("正在调用文章添加图片链接方法")
         self.page_click_add_image()
         self.page_click_permission_btn()
         self.page_select_image()
@@ -122,50 +125,60 @@ class PageAppCircle(AppBase):
 
     # 组合添加投票方法
     def page_add_vote(self, vote_title, options):
+        log.info("正在调用文章添加投票链接方法：[{}: {}]".format(vote_title, options))
+        num = len(options)
         self.page_click_add_vote()
         self.page_input_vote_title(vote_title)
-        self.page_click_add_options()
-        self.page_click_add_options()
+        for i in range(num-2):
+            self.page_click_add_options()
         self.page_input_vote_options(options)
         self.page_click_vote_done()
 
     # 组合编辑文章方法
     def page_publish_article_edit(self, circle, title, text):
+        log.info("正在调用编辑文章业务方法，圈子：{}，标题：{}，内容：{}")
         self.page_click_circle_btn()
         sleep(2)
         self.page_click_publish_article_btn()
         sleep(3.5)
         self.page_select_circle_click(circle)
-        self.page_click_join_publish_btn()
+        if self.base_ele_is_exist(page.app_join_publish_btn, timeout=1, poll=0.2):
+            self.page_click_join_publish_btn()
         self.page_click_add_title()
         self.page_input_title(title)
         self.page_input_content(text)
 
     # 组合发布文章方法(图片)
     def page_publish_article_image(self, circle, title, text):
+        log.info("正在调用发布文章业务方法(图片)，圈子：{}，标题：{}，内容：{}")
         self.page_publish_article_edit(circle, title, text)
         self.page_add_image()
         self.page_click_publish_btn()
 
     # 组合发布文章方法(投票)
     def page_publish_article_vote(self, circle, title, text, vote_title, options):
+        log.info("正在调用发布文章业务方法(投票)，圈子：{}，标题：{}，内容：{}")
         self.page_publish_article_edit(circle, title, text)
         self.page_add_vote(vote_title, options)
         self.page_click_publish_btn()
 
     # 组合查询文章方法
     def page_search_article(self, circle, title):
+        log.info("正在调用查询文章业务方法，圈子：{}，标题：{}")
         self.page_select_click_my_circle(circle)
+        sleep(1)
         self.page_click_article(title)
 
     # 组合删除文章方法
     def page_delete_article(self):
+        log.info("正在调用删除文章业务方法")
         self.page_click_up_options()
         self.page_click_article_delete()
         self.page_click_delete_confirm()
 
     # 组合取消加入方法
     def page_cancel_join(self):
+        log.info("正在调用取消加入圈子业务方法")
         self.page_click_up_options()
         self.page_click_cancel_join()
 

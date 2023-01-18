@@ -30,8 +30,9 @@ class TestAppCircle:
     def test01_app_circle_article(self, circle, title, text):
         try:
             # self.circle.page_publish_article_image(circle, title, text)
-            self.circle.page_publish_article_vote(circle, title, text, vote_title="1+1=?", options=[])
+            self.circle.page_publish_article_vote(circle, title, text, vote_title="1+1=?", options=[2, 3, "钝角", "C"])
             self.circle.page_search_article(circle, title)
+            self.circle.page_delete_article()
         except Exception as e:
             log.error(e)
             self.circle.base_screenshot()

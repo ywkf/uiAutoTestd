@@ -80,8 +80,10 @@ app_search_results = By.ID, "bey"
 """圈子"""
 # 发布文章按钮
 app_publish_article_btn = By.XPATH, "//*[@index='2' and @bounds='[631,1120][696,1185]']"
+# 选择圈子头区域
+app_circle_head = By.ID, "bpb"
 # 选择圈子区域
-app_circle_area = By.ID, "wf"
+app_circle_area = By.ID, "aq0"
 
 
 # 选择圈子
@@ -145,7 +147,7 @@ app_my_circle_area = By.XPATH, "//*[@index='1' and @resource-id='com.netease.new
 
 # 选择我的圈子
 def get_my_circle_loc(click_text):
-    app_my_circle_loc = By.XPATH, "//*[@resource-id='com.netease.newsreader.activity:id/bm9' and contains(@text, '{}')]".format(
+    app_my_circle_loc = By.XPATH, "//*[@resource-id='com.netease.newsreader.activity:id/bm9' and contains(@text, '{}')]/..".format(
         click_text)
     return app_my_circle_loc
 
