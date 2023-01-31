@@ -82,7 +82,7 @@ class PageAppLogin(AppBase):
         self.page_click_logout_confirm()
 
     # 登录成功方法
-    def page_app_login_success(self, email="xxx", pwd="xxx"):
+    def page_app_login_success(self, email="18340812842@163.com", pwd="Mdhdhbbz"):
         log.info("正在调用app登录业务方法，邮箱：{}，密码：{}".format(email, pwd))
         self.page_app_login(email, pwd)
 

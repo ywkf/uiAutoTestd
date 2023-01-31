@@ -47,8 +47,8 @@ class PageAppArticle(AppBase):
     # 查找文章
     def page_click_article(self, click_text):
         loc = page.get_article_loc(click_text)
-        # self.app_base_wipe_up(loc)
-        self.app_base_refresh_click(loc)
+        self.app_base_down_wipe_up(page.app_index_area, loc)
+        # self.app_base_refresh_click(page.app_index_area, loc)
 
     # 组合查询文章方法
     def page_app_search_article(self, channel, title):
@@ -57,6 +57,7 @@ class PageAppArticle(AppBase):
         self.page_click_index()
         # sleep(1)
         self.page_click_channel(channel)
+        sleep(1)
         self.page_click_article(title)
 
     # 组合搜索方法

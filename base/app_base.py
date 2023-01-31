@@ -116,7 +116,7 @@ class AppBase(Base):
         # loc = page.get_article_loc(click_text)
         self.__wipe_search(loc, coord)
 
-    # 从下拉刷新屏幕查询点击
+    # 下拉刷新屏幕查询点击
     def app_base_refresh_click(self, loc_area, loc):
         log.info("正在调用下拉刷新查询方法")
         # 查找区域元素
@@ -129,7 +129,7 @@ class AppBase(Base):
         # 计算滑动区域
         coord = {}
         coord["start_x"] = width * 0.5
-        coord["start_y"] = height * 0.1
+        coord["start_y"] = height * 0.2
         coord["end_x"] = width * 0.5
         coord["end_y"] = height * 0.8
 

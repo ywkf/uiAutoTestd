@@ -22,7 +22,7 @@ class TestAppLogin:
 
     # 关闭driver
     def teardown_class(self):
-        self.app_login.page_app_logout()
+        # self.app_login.page_app_logout()
         GetDriver.quit_app_driver()
 
     # 测试登录

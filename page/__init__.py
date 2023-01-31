@@ -50,6 +50,8 @@ app_logout_confirm = By.ID, "au3"
 """首页"""
 # 频道区域
 app_channel_area = By.ID, "b6i"
+# 首页文章区域
+app_index_area = By.ID, "agv"
 # 页面区域
 app_page_area = By.ID, "hh"
 

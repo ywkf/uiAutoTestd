@@ -33,6 +33,7 @@ class TestAppCircle:
             self.circle.page_publish_article_vote(circle, title, text, vote_title="1+1=?", options=[2, 3, "钝角", "C"])
             self.circle.page_search_article(circle, title)
             self.circle.page_delete_article()
+            # self.circle.page_cancel_join()
         except Exception as e:
             log.error(e)
             self.circle.base_screenshot()

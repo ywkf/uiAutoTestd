@@ -136,7 +136,7 @@ class PageAppCircle(AppBase):
 
     # 组合编辑文章方法
     def page_publish_article_edit(self, circle, title, text):
-        log.info("正在调用编辑文章业务方法，圈子：{}，标题：{}，内容：{}")
+        log.info("正在调用编辑文章业务方法，圈子：{}，标题：{}，内容：{}".format(circle, title, text))
         self.page_click_circle_btn()
         sleep(2)
         self.page_click_publish_article_btn()
@@ -150,21 +150,21 @@ class PageAppCircle(AppBase):
 
     # 组合发布文章方法(图片)
     def page_publish_article_image(self, circle, title, text):
-        log.info("正在调用发布文章业务方法(图片)，圈子：{}，标题：{}，内容：{}")
+        log.info("正在调用发布文章业务方法(图片)，圈子：{}，标题：{}，内容：{}".format(circle, title, text))
         self.page_publish_article_edit(circle, title, text)
         self.page_add_image()
         self.page_click_publish_btn()
 
     # 组合发布文章方法(投票)
     def page_publish_article_vote(self, circle, title, text, vote_title, options):
-        log.info("正在调用发布文章业务方法(投票)，圈子：{}，标题：{}，内容：{}")
+        log.info("正在调用发布文章业务方法(投票)，圈子：{}，标题：{}，内容：{}".format(circle, title, text))
         self.page_publish_article_edit(circle, title, text)
         self.page_add_vote(vote_title, options)
         self.page_click_publish_btn()
 
     # 组合查询文章方法
     def page_search_article(self, circle, title):
-        log.info("正在调用查询文章业务方法，圈子：{}，标题：{}")
+        log.info("正在调用查询文章业务方法，圈子：{}，标题：{}".format(circle, title))
         self.page_select_click_my_circle(circle)
         sleep(1)
         self.page_click_article(title)
